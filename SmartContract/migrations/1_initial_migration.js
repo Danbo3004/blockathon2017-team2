@@ -1,5 +1,5 @@
-var Migrations = artifacts.require("./Migrations.sol");
+var PePointContract = artifacts.require("./PePointContract.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(PePointContract);
 };

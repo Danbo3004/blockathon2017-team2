@@ -30,21 +30,25 @@ contract PePointContract {
 
 
     //creater user (customer and retailer) with public key
-    function createUser (bytes32 _pubKey, bool _isCustomer) {
+    function createUser (bytes32 _pubKey, bool _isCustomer) public {
         //save user info to mapping
         mUserInfoManager[msg.sender] = UserInfo(_pubKey, _isCustomer);
     }
 
+    function getDemo (bool _testbool, bytes32 _pubkey) public constant returns (bytes32) {
+        return _pubkey;
+    }
+
     //get public key of a user
     //retailer can get
-    function getPublicKeyUser (address _addressUser) returns (bytes32) {
+    function getPublicKeyUser (address _addressUser) public constant returns (bytes32) {
         return mUserInfoManager[_addressUser].pubKey;
     }
 
     //retailer update the customer point 
     function updateScoreToCustomer (address _addressCustomer, bytes32 _totalScoreEncryptCusPubKey, 
                                     bytes32 _totalScoreEncryptRetPubKey, bytes32 _scoreChangeEncCusPubkey,
-                                    bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint) {
+                                    bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint)  public {
         CustomerPointInfo storage customerPointData = mRetailerManagerPoint[msg.sender];
         customerPointData.mPointCustomer[_addressCustomer].pointCustomer = _totalScoreEncryptCusPubKey;
         customerPointData.mPointCustomer[_addressCustomer].pointRetailer = _totalScoreEncryptRetPubKey;
@@ -52,12 +56,12 @@ contract PePointContract {
     }
 
     //Retailer get the current point of user
-    function getScoreCustomerFromRetailer (address _addressCustomer) returns (bytes32) {
+    function getScoreCustomerFromRetailer (address _addressCustomer) public constant returns (bytes32) {
         return mRetailerManagerPoint[msg.sender].mPointCustomer[_addressCustomer].pointRetailer;
     }
 
     //Customer check their point
-    function getScoreCustomerFromCustomer (address _addressRetailer) returns (bytes32, bytes32) {
+    function getScoreCustomerFromCustomer (address _addressRetailer) public constant returns (bytes32, bytes32) {
         return (mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointCustomer,
                 mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointHashRetailer);
     }
