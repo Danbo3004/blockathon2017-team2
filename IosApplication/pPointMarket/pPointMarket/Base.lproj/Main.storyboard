@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yn8-tW-QWR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Lazada-->
+        <scene sceneID="lAA-SA-RBY">
+            <objects>
+                <collectionViewController id="XJ7-lE-6qM" customClass="HomeViewController" customModule="pPointMarket" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="T83-0k-UCc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="1" id="lHw-AC-quc">
+                            <size key="itemSize" width="156" height="270"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="product_cell" id="DO5-93-QFF" customClass="ProductCell" customModule="pPointMarket" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="156" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="156" height="270"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dnj-40-IRf">
+                                            <rect key="frame" x="8" y="8" width="140" height="254"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dnj-40-IRf" firstAttribute="top" secondItem="DO5-93-QFF" secondAttribute="topMargin" id="RDq-8I-Tkc"/>
+                                    <constraint firstItem="dnj-40-IRf" firstAttribute="leading" secondItem="DO5-93-QFF" secondAttribute="leadingMargin" id="b2l-qn-yrH"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="dnj-40-IRf" secondAttribute="bottom" id="dvM-3c-wjt"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="dnj-40-IRf" secondAttribute="trailing" id="wqd-x1-ENx"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="product" destination="dnj-40-IRf" id="xTF-xA-2pc"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="XJ7-lE-6qM" id="Gb5-XS-PyS"/>
+                            <outlet property="delegate" destination="XJ7-lE-6qM" id="Qqe-Cb-Lxp"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Lazada" id="as5-fU-jDV"/>
+                    <connections>
+                        <segue destination="Jo1-Zx-fqY" kind="show" identifier="show_payment_cash" id="QsN-al-J0J"/>
+                        <segue destination="Jo1-Zx-fqY" kind="show" identifier="show_payment_loyalty" id="sQM-pI-J6e"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHP-Sl-50g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="13.943028485757123"/>
+        </scene>
+        <!--Payment View Controller-->
+        <scene sceneID="Fat-7j-L3o">
+            <objects>
+                <viewController id="Jo1-Zx-fqY" customClass="PaymentViewController" customModule="pPointMarket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q9z-AE-ioh" customClass="UIScrollView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U6V-mu-Ipk">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r45-IL-gIn">
+                                <rect key="frame" x="155" y="589" width="200" height="48"/>
+                                <state key="normal" image="checkout"/>
+                                <connections>
+                                    <action selector="buyProduct:" destination="Jo1-Zx-fqY" eventType="touchUpInside" id="IWe-MT-RMV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="U6V-mu-Ipk" firstAttribute="trailing" secondItem="XjF-Vs-ebL" secondAttribute="trailing" id="b91-NP-0Hs"/>
+                            <constraint firstItem="XjF-Vs-ebL" firstAttribute="bottom" secondItem="r45-IL-gIn" secondAttribute="bottom" constant="30" id="e1k-sd-x3F"/>
+                            <constraint firstItem="U6V-mu-Ipk" firstAttribute="leading" secondItem="XjF-Vs-ebL" secondAttribute="leading" id="mOG-H8-rWZ"/>
+                            <constraint firstItem="XjF-Vs-ebL" firstAttribute="bottom" secondItem="U6V-mu-Ipk" secondAttribute="bottom" id="pVu-gx-0lS"/>
+                            <constraint firstItem="U6V-mu-Ipk" firstAttribute="top" secondItem="XjF-Vs-ebL" secondAttribute="top" id="sY6-Xh-k6Q"/>
+                            <constraint firstItem="XjF-Vs-ebL" firstAttribute="trailing" secondItem="r45-IL-gIn" secondAttribute="trailing" constant="20" id="vgs-ov-Cw0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XjF-Vs-ebL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dUX-iP-e4l"/>
+                    <connections>
+                        <outlet property="buyBtn" destination="r45-IL-gIn" id="vS3-QI-JGp"/>
+                        <outlet property="detailImg" destination="U6V-mu-Ipk" id="JKn-kk-5fk"/>
+                        <segue destination="Tnm-wu-vxm" kind="show" identifier="show_cash_payment" id="eAh-LD-6kw"/>
+                        <segue destination="wZ5-o5-qD6" kind="show" identifier="show_loyalty_payment" id="mPI-ew-CRh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9p-SA-Dk7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2205.5999999999999" y="13.943028485757123"/>
+        </scene>
+        <!--Loyalty Payment View Controller-->
+        <scene sceneID="ipy-3J-O9N">
+            <objects>
+                <viewController id="wZ5-o5-qD6" customClass="LoyaltyPaymentViewController" customModule="pPointMarket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a3n-JT-WWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyality_success" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-Xf-TxF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51t-VA-a8e">
+                                <rect key="frame" x="91" y="604" width="264" height="48"/>
+                                <state key="normal" image="continue_shopping"/>
+                                <connections>
+                                    <action selector="continueShopping:" destination="wZ5-o5-qD6" eventType="touchUpInside" id="dJ2-0T-J2U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have spent 100 Gift Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPC-oO-E8V">
+                                <rect key="frame" x="16" y="279" width="343" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" red="0.67421478426395942" green="0.18135595673997512" blue="0.24461732604793784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AeL-L3-7On" firstAttribute="bottom" secondItem="51t-VA-a8e" secondAttribute="bottom" constant="15" id="5CH-nl-rka"/>
+                            <constraint firstItem="AeL-L3-7On" firstAttribute="trailing" secondItem="mvd-Xf-TxF" secondAttribute="trailing" id="REa-Za-mqG"/>
+                            <constraint firstItem="mvd-Xf-TxF" firstAttribute="bottom" secondItem="AeL-L3-7On" secondAttribute="bottom" id="RId-EG-czO"/>
+                            <constraint firstItem="mvd-Xf-TxF" firstAttribute="leading" secondItem="AeL-L3-7On" secondAttribute="leading" id="RYP-87-NWq"/>
+                            <constraint firstItem="mvd-Xf-TxF" firstAttribute="top" secondItem="AeL-L3-7On" secondAttribute="top" id="rhg-Y6-Tt2"/>
+                            <constraint firstItem="AeL-L3-7On" firstAttribute="trailing" secondItem="51t-VA-a8e" secondAttribute="trailing" constant="20" id="yCZ-tB-tDU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AeL-L3-7On"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fjh-QM-eQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3176.8000000000002" y="539.28035982008998"/>
+        </scene>
+        <!--Cash Payement View Controller-->
+        <scene sceneID="sdg-t0-kTD">
+            <objects>
+                <viewController id="Tnm-wu-vxm" customClass="CashPayementViewController" customModule="pPointMarket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHJ-ZD-TzF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loyality_success" translatesAutoresizingMaskIntoConstraints="NO" id="4mG-Pj-uRe">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tP8-gl-rH6">
+                                <rect key="frame" x="91" y="604" width="264" height="48"/>
+                                <state key="normal" image="continue_shopping"/>
+                                <connections>
+                                    <action selector="continueShopping:" destination="Tnm-wu-vxm" eventType="touchUpInside" id="aSB-3S-EI2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You got +15 Gift Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIX-B9-g0h">
+                                <rect key="frame" x="16" y="282" width="339" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" red="0.67421478426395942" green="0.18212810217873729" blue="0.2166040019856075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4mG-Pj-uRe" firstAttribute="leading" secondItem="ebC-Qr-kBw" secondAttribute="leading" id="GCx-6B-uxS"/>
+                            <constraint firstItem="ebC-Qr-kBw" firstAttribute="trailing" secondItem="4mG-Pj-uRe" secondAttribute="trailing" id="Rfe-F6-xkE"/>
+                            <constraint firstItem="ebC-Qr-kBw" firstAttribute="trailing" secondItem="tP8-gl-rH6" secondAttribute="trailing" constant="20" id="WTd-oD-hfq"/>
+                            <constraint firstItem="ebC-Qr-kBw" firstAttribute="bottom" secondItem="tP8-gl-rH6" secondAttribute="bottom" constant="15" id="fi8-QH-oBZ"/>
+                            <constraint firstItem="4mG-Pj-uRe" firstAttribute="top" secondItem="ebC-Qr-kBw" secondAttribute="top" id="ryr-9d-rh4"/>
+                            <constraint firstItem="4mG-Pj-uRe" firstAttribute="bottom" secondItem="ebC-Qr-kBw" secondAttribute="bottom" id="z1X-BB-fRC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ebC-Qr-kBw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ff-Ft-gQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3176.8000000000002" y="-177.66116941529236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Oy5-3v-CBw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yn8-tW-QWR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mSl-dD-Qce">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XJ7-lE-6qM" kind="relationship" relationship="rootViewController" id="sEC-4B-W4Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rkN-RG-Yu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="252" y="14"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkout" width="200" height="48"/>
+        <image name="continue_shopping" width="264" height="48"/>
+        <image name="loyality_success" width="360" height="640"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="sQM-pI-J6e"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>
