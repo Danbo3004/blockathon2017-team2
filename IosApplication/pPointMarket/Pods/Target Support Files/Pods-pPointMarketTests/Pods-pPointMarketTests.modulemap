@@ -1,0 +1,6 @@
+framework module Pods_pPointMarketTests {
+  umbrella header "Pods-pPointMarketTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
