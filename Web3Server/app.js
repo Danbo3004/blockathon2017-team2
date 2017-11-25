@@ -160,6 +160,26 @@ app.get('/', function (req, res) {
     res.send('Hello World!')
 });
 
+app.get('/test/:address', function (req, res) {
+    var address = req.params.address;
+
+
+    var contract = new web3.eth.Contract(codeABI, address);
+
+    contract.methods.getDemo(true, "0x4c426d76385ac0d4d22faae7e6a6010dc4c83901").call({from: address},
+        function (error, result) {
+            if (!error) {
+                console.log(result);
+                res.send({ok: true});
+            }
+            else
+                console.error(error);
+        });
+
+    console.log(req.params);
+    res.send({});
+});
+
 app.get('/getDemo', function (req, res) {
 
     var contract = new web3.eth.Contract(codeABI, address);
@@ -183,17 +203,21 @@ app.get('/getPublicKeyUser/:from/:address', function (req, res) {
         function (error, result) {
             if (!error) {
                 console.log(result);
-                res.send({ok: true});
+                res.send(result);
             }
             else
                 console.error(error);
         });
 });
 
-app.get('/createUser/:from/:publicKey/:isCustomer', function (req, res) {
+app.get('/createUser/from/publicKey/isCustomer', function (req, res) {
+
+    console.log("test");
     var fromAddress = req.params.from;
     var publicKey = req.params.publicKey;
     var isCustomer = req.params.isCustomer;
+
+    var contract = new web3.eth.Contract(codeABI, address);
     contract.methods.createUser(publicKey, isCustomer).send({from: fromAddress},
         function (error, result) {
             if (!error) {
@@ -205,15 +229,8 @@ app.get('/createUser/:from/:publicKey/:isCustomer', function (req, res) {
         });
 });
 
-
-// function updateScoreToCustomer (address _addressCustomer, bytes32 _totalScoreEncryptCusPubKey,
-//     bytes32 _totalScoreEncryptRetPubKey, bytes32 _scoreChangeEncCusPubkey,
-//     bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint)  public {
-
-
 app.get('/updateScoreToCustomer/:fromAdd/:addressCus/:totalScoreCusEnc/:totalScoreRetEnc/:changeScorecusEn/' +
     ':changeScoreRetEn/:hasPoint', function (req, res) {
-    //TODO fix send from client
     var fromAdd = req.params.fromAdd;
     var addressCus = req.params.addressCus;
     var totalScoreCusEnc = req.params.totalScoreCusEnc;
@@ -222,6 +239,7 @@ app.get('/updateScoreToCustomer/:fromAdd/:addressCus/:totalScoreCusEnc/:totalSco
     var changeScoreRetEn = req.params.changeScoreRetEn;
     var hasPoint = req.params.hasPoint;
 
+    var contract = new web3.eth.Contract(codeABI, address);
     contract.methods.updateScoreToCustomer(addressCus, totalScoreCusEnc, totalScoreRetEnc,
         changeScorecusEn, changeScoreRetEn, hasPoint).send({from: fromAdd},
         function (error, result) {
@@ -232,24 +250,44 @@ app.get('/updateScoreToCustomer/:fromAdd/:addressCus/:totalScoreCusEnc/:totalSco
             else
                 console.error(error);
         });
+});
 
+
+app.get('/getScoreCustomerFromRetailer/:fromAdd/:addressCus/', function (req, res) {
+    var fromAdd = req.params.fromAdd;
+    var addressCus = req.params.addressCus;
+
+    var contract = new web3.eth.Contract(codeABI, address);
+    contract.methods.getScoreCustomerFromRetailer(addressCus).call({from: fromAdd},
+        function (error, result) {
+            if (!error) {
+                console.log("response getScoreCustomerFromRetailer : " + result);
+                res.send(result);
+            }
+            else
+                console.error(error);
+        });
+});
+
+
+app.get('/getScoreCustomerFromCustomer/:fromAdd/:addressRetail', function (req, res) {
+    var fromAdd = req.params.fromAdd;
+    var addressRetail = req.params.addressRetail;
+
+    var contract = new web3.eth.Contract(codeABI, address);
+    contract.methods.getScoreCustomerFromCustomer(addressRetail).call({from: fromAdd},
+        function (error, result) {
+            if (!error) {
+                console.log("response getScoreCustomerFromCustomer : " + result);
+                res.send(result);
+            }
+            else
+                console.error(error);
+        });
 });
 
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
-
-
-    // var wallet = Wallet.generate();
-    // console.log('privateKey:   0x' + wallet.getPrivateKey().toString('hex'));
-    // console.log('address:      0x' + wallet.getAddress().toString('hex'));
-    // console.log('publicKey:    0x' + wallet.getPublicKey().toString('hex'));
-
-    //
-    //
-    // var privKey = new Buffer('a4e7bdede2be7e801f763ab6c18daf8f0fd3aae5fd2064997b79ac2bb18cbba5', 'hex');
-    // var wallet = Wallet.fromPrivateKey(privKey);
-    //
-
 
 });
 
