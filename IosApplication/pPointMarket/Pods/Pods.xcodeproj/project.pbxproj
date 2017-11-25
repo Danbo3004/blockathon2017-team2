@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023A2D037F29EDADC59F79D2F40C7F20 /* SwiftyRSA+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46951EA70456FC210318BC6770C00C /* SwiftyRSA+ObjC.swift */; };
+		0422C9477FED82E0E0B3AC5AA804EF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		0CFD16E4F8CD0A7B0B04847F1D29BF4F /* Pods-pPointMarketTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287DC282DBDBB8BAA27DD7B07A2CB9D7 /* Pods-pPointMarketTests-dummy.m */; };
+		1D86D70E0FDA5E2730C1E19F1EC83E12 /* Pods-pPointMarketTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E47383AE12FA3028EB389735824EA3C8 /* Pods-pPointMarketTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2925ADCD0AC908541FD4FF3FD20F1722 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A1017190FB468A67EDC3E5A61238B /* Signature.swift */; };
+		3085D14CB16F127107F002ECBF63FEDE /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C6FB8CA9E68B0AB3A0A993AEB9F90A /* PrivateKey.swift */; };
+		30E779A7249EDF0CA1764DAF2CB9D78C /* Pods-pPointMarketUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052CD373BAEA7770F3666143383A88E8 /* Pods-pPointMarketUITests-dummy.m */; };
+		4433F02146EA8DA1AFA392F7DE634A72 /* ClearMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8C891E69B5F35CFBD84BD8EEF5DEC /* ClearMessage.swift */; };
+		5632FEED65E0EB80B35AAACA9B53E112 /* SwiftyRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F41DD621484AC55C6763FA97A84D002E /* SwiftyRSA-dummy.m */; };
+		56B4F3C469EADD2E13980142D6943263 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9075217CBF7B699874095F03E2EC30D /* Key.swift */; };
+		65FD735A4BEC171F2EB7E80122A78786 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD3BAA1F05D31565222ABEA238EB02 /* PublicKey.swift */; };
+		6627EB14EC8D4B6CA2917FCAAE661995 /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCFF359E771F0954418CBC315609A01 /* NSData+SHA.m */; };
+		68A9700F6778F40BB914FEA98850D132 /* SwiftyRSAError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982E8B1D60EB21F05768B48D9FD1B0C /* SwiftyRSAError.swift */; };
+		6936E1C7FB6B6594A25F66EEDF78963E /* SwiftyRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A41E9899EC89C1CD03D57245FE93E2 /* SwiftyRSA.swift */; };
+		7127FD660B1328F39F4239DB18B8DC91 /* Pods-pPointMarket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4985AF63FEC289016263FA02690F2 /* Pods-pPointMarket-dummy.m */; };
+		80530799D990B61182B40606D4832CFB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		810BD9893E157970B151D5ADDE79CD62 /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = D576F1EAFFA3C023D556ABD4547AEDA8 /* NSData+SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A0676D3F50A53155068E06A014FDC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		AC6CC8DD72D5E535441A5997600943B4 /* SwiftyRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B38F437B94499A5E09B246AA302BE0D /* SwiftyRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C047C09E290733CC01AD0AAE1F49139C /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = CF78E7824AF6754BAB84778013ECCBA9 /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E261E50133FBCBC751EB2ECB0075FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		C525AF7FB7835FBE7AA30A4A8613CDDB /* Pods-pPointMarket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B685BB9E542EBD619D1D2E985E71B7 /* Pods-pPointMarket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC95EF40BA8E5C118313D3F2A7A975A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		CE2E800A816BA511B6D11CC02D985CE8 /* Pods-pPointMarketUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E99C620586C4A31A932B5F0A6CAB9450 /* Pods-pPointMarketUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCCADABDAB6566E20ABD1257E01669C1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A869239B861E65C323C38590179B13E1 /* Message.swift */; };
+		F08920009C3E14190D580CDCBD84016A /* EncryptedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459ABBD40A907266587C34853E7B6CA /* EncryptedMessage.swift */; };
+		F2ED6B3352C57FBD0B096EE271A44662 /* Asn1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC5D87E22E874B6C8A698F63DDC2272 /* Asn1Parser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217E5EB52F62BA16E834767DF4D3A29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8128A442A824F9731C9A0819BA234808;
+			remoteInfo = SwiftyRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052CD373BAEA7770F3666143383A88E8 /* Pods-pPointMarketUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pPointMarketUITests-dummy.m"; sourceTree = "<group>"; };
+		068E0904A203F8D7455CC1850D360D61 /* Pods-pPointMarketTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pPointMarketTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08E4985AF63FEC289016263FA02690F2 /* Pods-pPointMarket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pPointMarket-dummy.m"; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		17C6FB8CA9E68B0AB3A0A993AEB9F90A /* PrivateKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrivateKey.swift; path = SwiftyRSA/PrivateKey.swift; sourceTree = "<group>"; };
+		1CCFF359E771F0954418CBC315609A01 /* NSData+SHA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA.m"; path = "SwiftyRSA/NSData+SHA.m"; sourceTree = "<group>"; };
+		1EC5D87E22E874B6C8A698F63DDC2272 /* Asn1Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asn1Parser.swift; path = SwiftyRSA/Asn1Parser.swift; sourceTree = "<group>"; };
+		287DC282DBDBB8BAA27DD7B07A2CB9D7 /* Pods-pPointMarketTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pPointMarketTests-dummy.m"; sourceTree = "<group>"; };
+		29563A4AC6388AB6B2CA547FA5E671C2 /* Pods-pPointMarket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pPointMarket-acknowledgements.plist"; sourceTree = "<group>"; };
+		29DB67B7CA1F40038CBD68F1CD5A25EF /* Pods-pPointMarket-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pPointMarket-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B417391F5387F34C7C00A72D18DF611 /* SwiftyRSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-prefix.pch"; sourceTree = "<group>"; };
+		3459ABBD40A907266587C34853E7B6CA /* EncryptedMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncryptedMessage.swift; path = SwiftyRSA/EncryptedMessage.swift; sourceTree = "<group>"; };
+		511EA1A878C84EA63C697E24DB399A2A /* Pods-pPointMarketUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pPointMarketUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5331BCF485511D62151E9D27A8C72003 /* SwiftyRSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyRSA.modulemap; sourceTree = "<group>"; };
+		54F8C891E69B5F35CFBD84BD8EEF5DEC /* ClearMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClearMessage.swift; path = SwiftyRSA/ClearMessage.swift; sourceTree = "<group>"; };
+		56CA877D531528E4BA3B3A6A70A2A853 /* Pods-pPointMarket-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarket-frameworks.sh"; sourceTree = "<group>"; };
+		589D708CF7E7DDFB071FA7A85DC1403B /* Pods-pPointMarket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pPointMarket.modulemap"; sourceTree = "<group>"; };
+		5DFBFF848E40C263110693463E2165A9 /* Pods-pPointMarketTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarketTests-frameworks.sh"; sourceTree = "<group>"; };
+		66A5BF58563E27A53B8EACB1CC4F6F3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E54338EF908D388929BA869A1D6E773 /* Pods-pPointMarketTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarketTests-resources.sh"; sourceTree = "<group>"; };
+		7B38F437B94499A5E09B246AA302BE0D /* SwiftyRSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-umbrella.h"; sourceTree = "<group>"; };
+		813E4705C215496D4A03140E68DE617A /* Pods-pPointMarketUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarketUITests-resources.sh"; sourceTree = "<group>"; };
+		84A41E9899EC89C1CD03D57245FE93E2 /* SwiftyRSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRSA.swift; path = SwiftyRSA/SwiftyRSA.swift; sourceTree = "<group>"; };
+		86B685BB9E542EBD619D1D2E985E71B7 /* Pods-pPointMarket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pPointMarket-umbrella.h"; sourceTree = "<group>"; };
+		8B5306861D9B4290A8461673E6CBA23C /* Pods-pPointMarketUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pPointMarketUITests.modulemap"; sourceTree = "<group>"; };
+		9109BDAE2FBB2755C17EAB78BE337F78 /* Pods-pPointMarketTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pPointMarketTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		937ED6F24116BC5A36025DD01DA64519 /* Pods-pPointMarketTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pPointMarketTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF31F2774E4426808AFE9F83C5B2C1C /* Pods_pPointMarketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pPointMarketTests.framework; path = "Pods-pPointMarketTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C27CD22825431EFBA7410DA474F95CB /* Pods-pPointMarketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F29ED8BBECFB2E27A550BE7E0DCC48F /* SwiftyRSA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRSA.xcconfig; sourceTree = "<group>"; };
+		A19BE5A5F14EC20B65BB7A85E7B68727 /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRSA.framework; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A749CB7ECF1DBE38AD697A72900A0983 /* Pods-pPointMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarket.release.xcconfig"; sourceTree = "<group>"; };
+		A869239B861E65C323C38590179B13E1 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = SwiftyRSA/Message.swift; sourceTree = "<group>"; };
+		A884577C820F9A58826138BEDCADAE75 /* Pods-pPointMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		A982E8B1D60EB21F05768B48D9FD1B0C /* SwiftyRSAError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRSAError.swift; path = SwiftyRSA/SwiftyRSAError.swift; sourceTree = "<group>"; };
+		AB513F85362BB5B7BE8CF836FFD6D445 /* Pods-pPointMarketUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarketUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AB9474231B9A0A9A7D6D806FC6A1A809 /* Pods-pPointMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarketTests.release.xcconfig"; sourceTree = "<group>"; };
+		B27DCDFDC25B72ACEB6E6ECACBEC4B7F /* Pods-pPointMarket-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pPointMarket-resources.sh"; sourceTree = "<group>"; };
+		BA46951EA70456FC210318BC6770C00C /* SwiftyRSA+ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyRSA+ObjC.swift"; path = "SwiftyRSA/SwiftyRSA+ObjC.swift"; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C0FFB45863BEAE72A31E8F596E6EB16B /* Pods-pPointMarketUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pPointMarketUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C16194BAB0E073D89758C080D1B010DB /* Pods-pPointMarketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6DD3BAA1F05D31565222ABEA238EB02 /* PublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublicKey.swift; path = SwiftyRSA/PublicKey.swift; sourceTree = "<group>"; };
+		CE72396DD6B41774771948A5D868DDCB /* Pods_pPointMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pPointMarket.framework; path = "Pods-pPointMarket.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF78E7824AF6754BAB84778013ECCBA9 /* SwiftyRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyRSA.h; path = SwiftyRSA/SwiftyRSA.h; sourceTree = "<group>"; };
+		D506FE23CEE613F5DD65A8621A9BE3F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D576F1EAFFA3C023D556ABD4547AEDA8 /* NSData+SHA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA.h"; path = "SwiftyRSA/NSData+SHA.h"; sourceTree = "<group>"; };
+		D80A1017190FB468A67EDC3E5A61238B /* Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signature.swift; path = SwiftyRSA/Signature.swift; sourceTree = "<group>"; };
+		D9075217CBF7B699874095F03E2EC30D /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = SwiftyRSA/Key.swift; sourceTree = "<group>"; };
+		DB9C2F7F32156D3010DC9699659051FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD19A8BEF03BF74F895B690EFB8F4C5C /* Pods_pPointMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pPointMarketUITests.framework; path = "Pods-pPointMarketUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47383AE12FA3028EB389735824EA3C8 /* Pods-pPointMarketTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pPointMarketTests-umbrella.h"; sourceTree = "<group>"; };
+		E99C620586C4A31A932B5F0A6CAB9450 /* Pods-pPointMarketUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pPointMarketUITests-umbrella.h"; sourceTree = "<group>"; };
+		EF8F7A0E82B621A83D23CACAE76171D5 /* Pods-pPointMarketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pPointMarketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F41DD621484AC55C6763FA97A84D002E /* SwiftyRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRSA-dummy.m"; sourceTree = "<group>"; };
+		FBA0FDA47F2CC55F9204DBD9E092BDEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733B4494B6AD6BABCD03143E4D3B5B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC95EF40BA8E5C118313D3F2A7A975A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0052DDBD4B43ACDA923F3B1C17E63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A0676D3F50A53155068E06A014FDC0 /* Foundation.framework in Frameworks */,
+				80530799D990B61182B40606D4832CFB /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD680A6311D11A0C7D2F0DF8CB432BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0422C9477FED82E0E0B3AC5AA804EF51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6652BD20A977B814B5D777372FA966E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E261E50133FBCBC751EB2ECB0075FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1165F49E0BA50C32066367F895EA948C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE72396DD6B41774771948A5D868DDCB /* Pods_pPointMarket.framework */,
+				9AF31F2774E4426808AFE9F83C5B2C1C /* Pods_pPointMarketTests.framework */,
+				DD19A8BEF03BF74F895B690EFB8F4C5C /* Pods_pPointMarketUITests.framework */,
+				A19BE5A5F14EC20B65BB7A85E7B68727 /* SwiftyRSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9F82EE76EDB46532C1803372D9EA43 /* SwiftyRSA */ = {
+			isa = PBXGroup;
+			children = (
+				1EC5D87E22E874B6C8A698F63DDC2272 /* Asn1Parser.swift */,
+				54F8C891E69B5F35CFBD84BD8EEF5DEC /* ClearMessage.swift */,
+				3459ABBD40A907266587C34853E7B6CA /* EncryptedMessage.swift */,
+				D9075217CBF7B699874095F03E2EC30D /* Key.swift */,
+				A869239B861E65C323C38590179B13E1 /* Message.swift */,
+				D576F1EAFFA3C023D556ABD4547AEDA8 /* NSData+SHA.h */,
+				1CCFF359E771F0954418CBC315609A01 /* NSData+SHA.m */,
+				17C6FB8CA9E68B0AB3A0A993AEB9F90A /* PrivateKey.swift */,
+				C6DD3BAA1F05D31565222ABEA238EB02 /* PublicKey.swift */,
+				D80A1017190FB468A67EDC3E5A61238B /* Signature.swift */,
+				CF78E7824AF6754BAB84778013ECCBA9 /* SwiftyRSA.h */,
+				84A41E9899EC89C1CD03D57245FE93E2 /* SwiftyRSA.swift */,
+				A982E8B1D60EB21F05768B48D9FD1B0C /* SwiftyRSAError.swift */,
+				6D5811BA1895DCB84A6A9D643FC3540F /* ObjC */,
+				8DC7BC605DF1244A10EBDB8037FB7468 /* Support Files */,
+			);
+			name = SwiftyRSA;
+			path = SwiftyRSA;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55B112C59CC3534B9B93AAA0F2610B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A9F82EE76EDB46532C1803372D9EA43 /* SwiftyRSA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D5811BA1895DCB84A6A9D643FC3540F /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				BA46951EA70456FC210318BC6770C00C /* SwiftyRSA+ObjC.swift */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				55B112C59CC3534B9B93AAA0F2610B23 /* Pods */,
+				1165F49E0BA50C32066367F895EA948C /* Products */,
+				F8DF2EE7BCE4AD1571D8DA03AAD18A6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC7BC605DF1244A10EBDB8037FB7468 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C2F7F32156D3010DC9699659051FD /* Info.plist */,
+				5331BCF485511D62151E9D27A8C72003 /* SwiftyRSA.modulemap */,
+				9F29ED8BBECFB2E27A550BE7E0DCC48F /* SwiftyRSA.xcconfig */,
+				F41DD621484AC55C6763FA97A84D002E /* SwiftyRSA-dummy.m */,
+				2B417391F5387F34C7C00A72D18DF611 /* SwiftyRSA-prefix.pch */,
+				7B38F437B94499A5E09B246AA302BE0D /* SwiftyRSA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyRSA";
+			sourceTree = "<group>";
+		};
+		8E67DD375876853F5C17DB438837FFC1 /* Pods-pPointMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0FDA47F2CC55F9204DBD9E092BDEC /* Info.plist */,
+				8B5306861D9B4290A8461673E6CBA23C /* Pods-pPointMarketUITests.modulemap */,
+				C0FFB45863BEAE72A31E8F596E6EB16B /* Pods-pPointMarketUITests-acknowledgements.markdown */,
+				511EA1A878C84EA63C697E24DB399A2A /* Pods-pPointMarketUITests-acknowledgements.plist */,
+				052CD373BAEA7770F3666143383A88E8 /* Pods-pPointMarketUITests-dummy.m */,
+				AB513F85362BB5B7BE8CF836FFD6D445 /* Pods-pPointMarketUITests-frameworks.sh */,
+				813E4705C215496D4A03140E68DE617A /* Pods-pPointMarketUITests-resources.sh */,
+				E99C620586C4A31A932B5F0A6CAB9450 /* Pods-pPointMarketUITests-umbrella.h */,
+				EF8F7A0E82B621A83D23CACAE76171D5 /* Pods-pPointMarketUITests.debug.xcconfig */,
+				C16194BAB0E073D89758C080D1B010DB /* Pods-pPointMarketUITests.release.xcconfig */,
+			);
+			name = "Pods-pPointMarketUITests";
+			path = "Target Support Files/Pods-pPointMarketUITests";
+			sourceTree = "<group>";
+		};
+		D2AC91C1362769145FF69727F6774109 /* Pods-pPointMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				66A5BF58563E27A53B8EACB1CC4F6F3A /* Info.plist */,
+				937ED6F24116BC5A36025DD01DA64519 /* Pods-pPointMarketTests.modulemap */,
+				068E0904A203F8D7455CC1850D360D61 /* Pods-pPointMarketTests-acknowledgements.markdown */,
+				9109BDAE2FBB2755C17EAB78BE337F78 /* Pods-pPointMarketTests-acknowledgements.plist */,
+				287DC282DBDBB8BAA27DD7B07A2CB9D7 /* Pods-pPointMarketTests-dummy.m */,
+				5DFBFF848E40C263110693463E2165A9 /* Pods-pPointMarketTests-frameworks.sh */,
+				6E54338EF908D388929BA869A1D6E773 /* Pods-pPointMarketTests-resources.sh */,
+				E47383AE12FA3028EB389735824EA3C8 /* Pods-pPointMarketTests-umbrella.h */,
+				9C27CD22825431EFBA7410DA474F95CB /* Pods-pPointMarketTests.debug.xcconfig */,
+				AB9474231B9A0A9A7D6D806FC6A1A809 /* Pods-pPointMarketTests.release.xcconfig */,
+			);
+			name = "Pods-pPointMarketTests";
+			path = "Target Support Files/Pods-pPointMarketTests";
+			sourceTree = "<group>";
+		};
+		E1057EE86BE967A0EEA45AA3C67D4F74 /* Pods-pPointMarket */ = {
+			isa = PBXGroup;
+			children = (
+				D506FE23CEE613F5DD65A8621A9BE3F0 /* Info.plist */,
+				589D708CF7E7DDFB071FA7A85DC1403B /* Pods-pPointMarket.modulemap */,
+				29DB67B7CA1F40038CBD68F1CD5A25EF /* Pods-pPointMarket-acknowledgements.markdown */,
+				29563A4AC6388AB6B2CA547FA5E671C2 /* Pods-pPointMarket-acknowledgements.plist */,
+				08E4985AF63FEC289016263FA02690F2 /* Pods-pPointMarket-dummy.m */,
+				56CA877D531528E4BA3B3A6A70A2A853 /* Pods-pPointMarket-frameworks.sh */,
+				B27DCDFDC25B72ACEB6E6ECACBEC4B7F /* Pods-pPointMarket-resources.sh */,
+				86B685BB9E542EBD619D1D2E985E71B7 /* Pods-pPointMarket-umbrella.h */,
+				A884577C820F9A58826138BEDCADAE75 /* Pods-pPointMarket.debug.xcconfig */,
+				A749CB7ECF1DBE38AD697A72900A0983 /* Pods-pPointMarket.release.xcconfig */,
+			);
+			name = "Pods-pPointMarket";
+			path = "Target Support Files/Pods-pPointMarket";
+			sourceTree = "<group>";
+		};
+		F8DF2EE7BCE4AD1571D8DA03AAD18A6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1057EE86BE967A0EEA45AA3C67D4F74 /* Pods-pPointMarket */,
+				D2AC91C1362769145FF69727F6774109 /* Pods-pPointMarketTests */,
+				8E67DD375876853F5C17DB438837FFC1 /* Pods-pPointMarketUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58199D6C380100A097817BC7E38AB907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E800A816BA511B6D11CC02D985CE8 /* Pods-pPointMarketUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE411B45BF50D308981A358551177D3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D86D70E0FDA5E2730C1E19F1EC83E12 /* Pods-pPointMarketTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3CADE8984D130BE9A45F5B1C05375D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810BD9893E157970B151D5ADDE79CD62 /* NSData+SHA.h in Headers */,
+				AC6CC8DD72D5E535441A5997600943B4 /* SwiftyRSA-umbrella.h in Headers */,
+				C047C09E290733CC01AD0AAE1F49139C /* SwiftyRSA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67BC5F311CD307EF84A5DD8D0593704 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C525AF7FB7835FBE7AA30A4A8613CDDB /* Pods-pPointMarket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A1416752718AD8C4CB4A9060A3A500B /* Pods-pPointMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173AFBE39F3ED6F5F7A2D49F4344F418 /* Build configuration list for PBXNativeTarget "Pods-pPointMarket" */;
+			buildPhases = (
+				F35193A20B999D665F4188081CDB12E3 /* Sources */,
+				E6652BD20A977B814B5D777372FA966E /* Frameworks */,
+				E67BC5F311CD307EF84A5DD8D0593704 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217C82A3D12CEFCB26C47E444D6A59A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-pPointMarket";
+			productName = "Pods-pPointMarket";
+			productReference = CE72396DD6B41774771948A5D868DDCB /* Pods_pPointMarket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8128A442A824F9731C9A0819BA234808 /* SwiftyRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D721554BCAEC4399C2248985CE7DB0 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */;
+			buildPhases = (
+				F72EFD9BE79979AAAE4EDDB60FE4FF92 /* Sources */,
+				BD0052DDBD4B43ACDA923F3B1C17E63D /* Frameworks */,
+				CD3CADE8984D130BE9A45F5B1C05375D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyRSA;
+			productName = SwiftyRSA;
+			productReference = A19BE5A5F14EC20B65BB7A85E7B68727 /* SwiftyRSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF2CE0D40CB20C590907D05FCD043314 /* Pods-pPointMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D77D28ECD96AA644E25FFA9C9013D8 /* Build configuration list for PBXNativeTarget "Pods-pPointMarketUITests" */;
+			buildPhases = (
+				C0382E5D89847860147C85F428D00C22 /* Sources */,
+				733B4494B6AD6BABCD03143E4D3B5B59 /* Frameworks */,
+				58199D6C380100A097817BC7E38AB907 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pPointMarketUITests";
+			productName = "Pods-pPointMarketUITests";
+			productReference = DD19A8BEF03BF74F895B690EFB8F4C5C /* Pods_pPointMarketUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8705DE5DC87FA40AA12877F5C107175 /* Pods-pPointMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDA694E449A792DC766B0E13C0D52A4 /* Build configuration list for PBXNativeTarget "Pods-pPointMarketTests" */;
+			buildPhases = (
+				2EC917DBAFA4B9F5B043A049700BA5AD /* Sources */,
+				CBD680A6311D11A0C7D2F0DF8CB432BB /* Frameworks */,
+				AE411B45BF50D308981A358551177D3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pPointMarketTests";
+			productName = "Pods-pPointMarketTests";
+			productReference = 9AF31F2774E4426808AFE9F83C5B2C1C /* Pods_pPointMarketTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1165F49E0BA50C32066367F895EA948C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1416752718AD8C4CB4A9060A3A500B /* Pods-pPointMarket */,
+				E8705DE5DC87FA40AA12877F5C107175 /* Pods-pPointMarketTests */,
+				AF2CE0D40CB20C590907D05FCD043314 /* Pods-pPointMarketUITests */,
+				8128A442A824F9731C9A0819BA234808 /* SwiftyRSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC917DBAFA4B9F5B043A049700BA5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFD16E4F8CD0A7B0B04847F1D29BF4F /* Pods-pPointMarketTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0382E5D89847860147C85F428D00C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E779A7249EDF0CA1764DAF2CB9D78C /* Pods-pPointMarketUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35193A20B999D665F4188081CDB12E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127FD660B1328F39F4239DB18B8DC91 /* Pods-pPointMarket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72EFD9BE79979AAAE4EDDB60FE4FF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ED6B3352C57FBD0B096EE271A44662 /* Asn1Parser.swift in Sources */,
+				4433F02146EA8DA1AFA392F7DE634A72 /* ClearMessage.swift in Sources */,
+				F08920009C3E14190D580CDCBD84016A /* EncryptedMessage.swift in Sources */,
+				56B4F3C469EADD2E13980142D6943263 /* Key.swift in Sources */,
+				DCCADABDAB6566E20ABD1257E01669C1 /* Message.swift in Sources */,
+				6627EB14EC8D4B6CA2917FCAAE661995 /* NSData+SHA.m in Sources */,
+				3085D14CB16F127107F002ECBF63FEDE /* PrivateKey.swift in Sources */,
+				65FD735A4BEC171F2EB7E80122A78786 /* PublicKey.swift in Sources */,
+				2925ADCD0AC908541FD4FF3FD20F1722 /* Signature.swift in Sources */,
+				023A2D037F29EDADC59F79D2F40C7F20 /* SwiftyRSA+ObjC.swift in Sources */,
+				5632FEED65E0EB80B35AAACA9B53E112 /* SwiftyRSA-dummy.m in Sources */,
+				6936E1C7FB6B6594A25F66EEDF78963E /* SwiftyRSA.swift in Sources */,
+				68A9700F6778F40BB914FEA98850D132 /* SwiftyRSAError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217C82A3D12CEFCB26C47E444D6A59A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRSA;
+			target = 8128A442A824F9731C9A0819BA234808 /* SwiftyRSA */;
+			targetProxy = 217E5EB52F62BA16E834767DF4D3A29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B59EE06272B1FA14314C3A3D7EAFE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C27CD22825431EFBA7410DA474F95CB /* Pods-pPointMarketTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarketTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarketTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352B8052DFC89F29EB76E7FABA46F1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F29ED8BBECFB2E27A550BE7E0DCC48F /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C7603FCA3FD3DD4760B85324A928D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		464A29A941EDDC06F4615C3C07AAB532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F29ED8BBECFB2E27A550BE7E0DCC48F /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49BD037C483427553E1C6110D637E0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A749CB7ECF1DBE38AD697A72900A0983 /* Pods-pPointMarket.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarket/Pods-pPointMarket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FCCBADCF2161A7A684F0AE40A3E198D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A884577C820F9A58826138BEDCADAE75 /* Pods-pPointMarket.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarket/Pods-pPointMarket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DEF297FA99B14DC9F8E92765108E787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9474231B9A0A9A7D6D806FC6A1A809 /* Pods-pPointMarketTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarketTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarketTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D84E1725FEB01717E17E42C441B3FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8F7A0E82B621A83D23CACAE76171D5 /* Pods-pPointMarketUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarketUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarketUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBA98B5063B39383C473783E5C2A5C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16194BAB0E073D89758C080D1B010DB /* Pods-pPointMarketUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pPointMarketUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pPointMarketUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173AFBE39F3ED6F5F7A2D49F4344F418 /* Build configuration list for PBXNativeTarget "Pods-pPointMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCCBADCF2161A7A684F0AE40A3E198D /* Debug */,
+				49BD037C483427553E1C6110D637E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7603FCA3FD3DD4760B85324A928D53 /* Debug */,
+				33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D77D28ECD96AA644E25FFA9C9013D8 /* Build configuration list for PBXNativeTarget "Pods-pPointMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84E1725FEB01717E17E42C441B3FDF0 /* Debug */,
+				FBA98B5063B39383C473783E5C2A5C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDA694E449A792DC766B0E13C0D52A4 /* Build configuration list for PBXNativeTarget "Pods-pPointMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B59EE06272B1FA14314C3A3D7EAFE3B /* Debug */,
+				6DEF297FA99B14DC9F8E92765108E787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D721554BCAEC4399C2248985CE7DB0 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352B8052DFC89F29EB76E7FABA46F1C0 /* Debug */,
+				464A29A941EDDC06F4615C3C07AAB532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F2B2CD1FC930C500355F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2CC1FC930C500355F08 /* AppDelegate.swift */; };
+		23F2B2CF1FC930C500355F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2CE1FC930C500355F08 /* ViewController.swift */; };
+		23F2B2D21FC930C500355F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F2B2D01FC930C500355F08 /* Main.storyboard */; };
+		23F2B2D41FC930C500355F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F2B2D31FC930C500355F08 /* Assets.xcassets */; };
+		23F2B2D71FC930C500355F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F2B2D51FC930C500355F08 /* LaunchScreen.storyboard */; };
+		23F2B2E21FC930C600355F08 /* pPointMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2E11FC930C600355F08 /* pPointMarketTests.swift */; };
+		23F2B2ED1FC930C600355F08 /* pPointMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2EC1FC930C600355F08 /* pPointMarketUITests.swift */; };
+		23F2B2FB1FC9359E00355F08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2FA1FC9359E00355F08 /* HomeViewController.swift */; };
+		23F2B2FD1FC93DC300355F08 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2FC1FC93DC300355F08 /* ProductCell.swift */; };
+		23F2B2FF1FC95DB400355F08 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B2FE1FC95DB400355F08 /* PaymentViewController.swift */; };
+		23F2B3011FC9806900355F08 /* CashPayementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B3001FC9806900355F08 /* CashPayementViewController.swift */; };
+		23F2B3031FC9808D00355F08 /* LoyaltyPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2B3021FC9808D00355F08 /* LoyaltyPaymentViewController.swift */; };
+		28F9D3688780C66D90954A8E /* Pods_pPointMarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F751F8BD4FDC0F391ED1649E /* Pods_pPointMarketTests.framework */; };
+		8D082FD9BD0820A9310F4399 /* Pods_pPointMarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52FAFB2639BEDB3B51EEA52 /* Pods_pPointMarketUITests.framework */; };
+		B99772E9389E8C345B955621 /* Pods_pPointMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DD6715F90C87F001CE31DB /* Pods_pPointMarket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F2B2DE1FC930C600355F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F2B2C11FC930C500355F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F2B2C81FC930C500355F08;
+			remoteInfo = pPointMarket;
+		};
+		23F2B2E91FC930C600355F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F2B2C11FC930C500355F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F2B2C81FC930C500355F08;
+			remoteInfo = pPointMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1649CF536597230B3DE980B9 /* Pods-pPointMarketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23F2B2C91FC930C500355F08 /* pPointMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pPointMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F2B2CC1FC930C500355F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23F2B2CE1FC930C500355F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23F2B2D11FC930C500355F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23F2B2D31FC930C500355F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F2B2D61FC930C500355F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23F2B2D81FC930C500355F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F2B2DD1FC930C600355F08 /* pPointMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pPointMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F2B2E11FC930C600355F08 /* pPointMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pPointMarketTests.swift; sourceTree = "<group>"; };
+		23F2B2E31FC930C600355F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F2B2E81FC930C600355F08 /* pPointMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pPointMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F2B2EC1FC930C600355F08 /* pPointMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pPointMarketUITests.swift; sourceTree = "<group>"; };
+		23F2B2EE1FC930C700355F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F2B2FA1FC9359E00355F08 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		23F2B2FC1FC93DC300355F08 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		23F2B2FE1FC95DB400355F08 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		23F2B3001FC9806900355F08 /* CashPayementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashPayementViewController.swift; sourceTree = "<group>"; };
+		23F2B3021FC9808D00355F08 /* LoyaltyPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyPaymentViewController.swift; sourceTree = "<group>"; };
+		26DD6715F90C87F001CE31DB /* Pods_pPointMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pPointMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316478F37F7216C1BB7EDE3D /* Pods-pPointMarketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79270BBA3AF10637DEA1073D /* Pods-pPointMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarket/Pods-pPointMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6E06A58C3CC57E5218F128 /* Pods-pPointMarketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE591443E8CE367BF78BB905 /* Pods-pPointMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests.release.xcconfig"; sourceTree = "<group>"; };
+		D52FAFB2639BEDB3B51EEA52 /* Pods_pPointMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pPointMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39DDADD5FBA815A5E75C883 /* Pods-pPointMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pPointMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-pPointMarket/Pods-pPointMarket.release.xcconfig"; sourceTree = "<group>"; };
+		F751F8BD4FDC0F391ED1649E /* Pods_pPointMarketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pPointMarketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F2B2C61FC930C500355F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99772E9389E8C345B955621 /* Pods_pPointMarket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2DA1FC930C600355F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9D3688780C66D90954A8E /* Pods_pPointMarketTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2E51FC930C600355F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D082FD9BD0820A9310F4399 /* Pods_pPointMarketUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F2B2C01FC930C500355F08 = {
+			isa = PBXGroup;
+			children = (
+				23F2B2CB1FC930C500355F08 /* pPointMarket */,
+				23F2B2E01FC930C600355F08 /* pPointMarketTests */,
+				23F2B2EB1FC930C600355F08 /* pPointMarketUITests */,
+				23F2B2CA1FC930C500355F08 /* Products */,
+				FC03B4286728EAFA155C978F /* Pods */,
+				E1FCA724598E00BA2C8D9EB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23F2B2CA1FC930C500355F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F2B2C91FC930C500355F08 /* pPointMarket.app */,
+				23F2B2DD1FC930C600355F08 /* pPointMarketTests.xctest */,
+				23F2B2E81FC930C600355F08 /* pPointMarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F2B2CB1FC930C500355F08 /* pPointMarket */ = {
+			isa = PBXGroup;
+			children = (
+				23F2B2CC1FC930C500355F08 /* AppDelegate.swift */,
+				23F2B2CE1FC930C500355F08 /* ViewController.swift */,
+				23F2B2D01FC930C500355F08 /* Main.storyboard */,
+				23F2B2FA1FC9359E00355F08 /* HomeViewController.swift */,
+				23F2B2D31FC930C500355F08 /* Assets.xcassets */,
+				23F2B2D51FC930C500355F08 /* LaunchScreen.storyboard */,
+				23F2B2D81FC930C500355F08 /* Info.plist */,
+				23F2B2FC1FC93DC300355F08 /* ProductCell.swift */,
+				23F2B2FE1FC95DB400355F08 /* PaymentViewController.swift */,
+				23F2B3001FC9806900355F08 /* CashPayementViewController.swift */,
+				23F2B3021FC9808D00355F08 /* LoyaltyPaymentViewController.swift */,
+			);
+			path = pPointMarket;
+			sourceTree = "<group>";
+		};
+		23F2B2E01FC930C600355F08 /* pPointMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F2B2E11FC930C600355F08 /* pPointMarketTests.swift */,
+				23F2B2E31FC930C600355F08 /* Info.plist */,
+			);
+			path = pPointMarketTests;
+			sourceTree = "<group>";
+		};
+		23F2B2EB1FC930C600355F08 /* pPointMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23F2B2EC1FC930C600355F08 /* pPointMarketUITests.swift */,
+				23F2B2EE1FC930C700355F08 /* Info.plist */,
+			);
+			path = pPointMarketUITests;
+			sourceTree = "<group>";
+		};
+		E1FCA724598E00BA2C8D9EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26DD6715F90C87F001CE31DB /* Pods_pPointMarket.framework */,
+				F751F8BD4FDC0F391ED1649E /* Pods_pPointMarketTests.framework */,
+				D52FAFB2639BEDB3B51EEA52 /* Pods_pPointMarketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC03B4286728EAFA155C978F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79270BBA3AF10637DEA1073D /* Pods-pPointMarket.debug.xcconfig */,
+				E39DDADD5FBA815A5E75C883 /* Pods-pPointMarket.release.xcconfig */,
+				316478F37F7216C1BB7EDE3D /* Pods-pPointMarketTests.debug.xcconfig */,
+				BE591443E8CE367BF78BB905 /* Pods-pPointMarketTests.release.xcconfig */,
+				1649CF536597230B3DE980B9 /* Pods-pPointMarketUITests.debug.xcconfig */,
+				8B6E06A58C3CC57E5218F128 /* Pods-pPointMarketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F2B2C81FC930C500355F08 /* pPointMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F2B2F11FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarket" */;
+			buildPhases = (
+				F694AD7EA570DD1F37ACE6B3 /* [CP] Check Pods Manifest.lock */,
+				23F2B2C51FC930C500355F08 /* Sources */,
+				23F2B2C61FC930C500355F08 /* Frameworks */,
+				23F2B2C71FC930C500355F08 /* Resources */,
+				996F4373B55ED87DC123AC16 /* [CP] Embed Pods Frameworks */,
+				15C8E37A49C3E905B40FECCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pPointMarket;
+			productName = pPointMarket;
+			productReference = 23F2B2C91FC930C500355F08 /* pPointMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F2B2DC1FC930C600355F08 /* pPointMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F2B2F41FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarketTests" */;
+			buildPhases = (
+				5D41CE5BD95CD963FD0A0EFD /* [CP] Check Pods Manifest.lock */,
+				23F2B2D91FC930C600355F08 /* Sources */,
+				23F2B2DA1FC930C600355F08 /* Frameworks */,
+				23F2B2DB1FC930C600355F08 /* Resources */,
+				5F0CE1485690FC96A64ABDD4 /* [CP] Embed Pods Frameworks */,
+				39F7EC9A92794959527C11D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F2B2DF1FC930C600355F08 /* PBXTargetDependency */,
+			);
+			name = pPointMarketTests;
+			productName = pPointMarketTests;
+			productReference = 23F2B2DD1FC930C600355F08 /* pPointMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23F2B2E71FC930C600355F08 /* pPointMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F2B2F71FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarketUITests" */;
+			buildPhases = (
+				2A1701C7F6C88A0B553330D9 /* [CP] Check Pods Manifest.lock */,
+				23F2B2E41FC930C600355F08 /* Sources */,
+				23F2B2E51FC930C600355F08 /* Frameworks */,
+				23F2B2E61FC930C600355F08 /* Resources */,
+				73E2E04F001BA457737AA7E6 /* [CP] Embed Pods Frameworks */,
+				6DB9597176FD3AE5510CF090 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F2B2EA1FC930C600355F08 /* PBXTargetDependency */,
+			);
+			name = pPointMarketUITests;
+			productName = pPointMarketUITests;
+			productReference = 23F2B2E81FC930C600355F08 /* pPointMarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F2B2C11FC930C500355F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Tuyen;
+				TargetAttributes = {
+					23F2B2C81FC930C500355F08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					23F2B2DC1FC930C600355F08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23F2B2C81FC930C500355F08;
+					};
+					23F2B2E71FC930C600355F08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23F2B2C81FC930C500355F08;
+					};
+				};
+			};
+			buildConfigurationList = 23F2B2C41FC930C500355F08 /* Build configuration list for PBXProject "pPointMarket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F2B2C01FC930C500355F08;
+			productRefGroup = 23F2B2CA1FC930C500355F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F2B2C81FC930C500355F08 /* pPointMarket */,
+				23F2B2DC1FC930C600355F08 /* pPointMarketTests */,
+				23F2B2E71FC930C600355F08 /* pPointMarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F2B2C71FC930C500355F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F2B2D71FC930C500355F08 /* LaunchScreen.storyboard in Resources */,
+				23F2B2D41FC930C500355F08 /* Assets.xcassets in Resources */,
+				23F2B2D21FC930C500355F08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2DB1FC930C600355F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2E61FC930C600355F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15C8E37A49C3E905B40FECCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarket/Pods-pPointMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1701C7F6C88A0B553330D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39F7EC9A92794959527C11D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D41CE5BD95CD963FD0A0EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0CE1485690FC96A64ABDD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarketTests/Pods-pPointMarketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB9597176FD3AE5510CF090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E2E04F001BA457737AA7E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarketUITests/Pods-pPointMarketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996F4373B55ED87DC123AC16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pPointMarket/Pods-pPointMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F694AD7EA570DD1F37ACE6B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F2B2C51FC930C500355F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F2B3011FC9806900355F08 /* CashPayementViewController.swift in Sources */,
+				23F2B2CF1FC930C500355F08 /* ViewController.swift in Sources */,
+				23F2B2FD1FC93DC300355F08 /* ProductCell.swift in Sources */,
+				23F2B2FF1FC95DB400355F08 /* PaymentViewController.swift in Sources */,
+				23F2B2CD1FC930C500355F08 /* AppDelegate.swift in Sources */,
+				23F2B2FB1FC9359E00355F08 /* HomeViewController.swift in Sources */,
+				23F2B3031FC9808D00355F08 /* LoyaltyPaymentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2D91FC930C600355F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F2B2E21FC930C600355F08 /* pPointMarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2B2E41FC930C600355F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F2B2ED1FC930C600355F08 /* pPointMarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F2B2DF1FC930C600355F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F2B2C81FC930C500355F08 /* pPointMarket */;
+			targetProxy = 23F2B2DE1FC930C600355F08 /* PBXContainerItemProxy */;
+		};
+		23F2B2EA1FC930C600355F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F2B2C81FC930C500355F08 /* pPointMarket */;
+			targetProxy = 23F2B2E91FC930C600355F08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23F2B2D01FC930C500355F08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F2B2D11FC930C500355F08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23F2B2D51FC930C500355F08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F2B2D61FC930C500355F08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F2B2EF1FC930C700355F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23F2B2F01FC930C700355F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F2B2F21FC930C700355F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79270BBA3AF10637DEA1073D /* Pods-pPointMarket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F2B2F31FC930C700355F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39DDADD5FBA815A5E75C883 /* Pods-pPointMarket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23F2B2F51FC930C700355F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316478F37F7216C1BB7EDE3D /* Pods-pPointMarketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pPointMarket.app/pPointMarket";
+			};
+			name = Debug;
+		};
+		23F2B2F61FC930C700355F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE591443E8CE367BF78BB905 /* Pods-pPointMarketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pPointMarket.app/pPointMarket";
+			};
+			name = Release;
+		};
+		23F2B2F81FC930C700355F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1649CF536597230B3DE980B9 /* Pods-pPointMarketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pPointMarket;
+			};
+			name = Debug;
+		};
+		23F2B2F91FC930C700355F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6E06A58C3CC57E5218F128 /* Pods-pPointMarketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pPointMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pega.pPointMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pPointMarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F2B2C41FC930C500355F08 /* Build configuration list for PBXProject "pPointMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F2B2EF1FC930C700355F08 /* Debug */,
+				23F2B2F01FC930C700355F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F2B2F11FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F2B2F21FC930C700355F08 /* Debug */,
+				23F2B2F31FC930C700355F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F2B2F41FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F2B2F51FC930C700355F08 /* Debug */,
+				23F2B2F61FC930C700355F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F2B2F71FC930C700355F08 /* Build configuration list for PBXNativeTarget "pPointMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F2B2F81FC930C700355F08 /* Debug */,
+				23F2B2F91FC930C700355F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F2B2C11FC930C500355F08 /* Project object */;
+}
