@@ -113,20 +113,26 @@
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6106048061001e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a723058208027437b88d5d8ef51e08896f9f7a0ac4284c7d4cf54c74e0c9ac539364024390029",
-  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a723058208027437b88d5d8ef51e08896f9f7a0ac4284c7d4cf54c74e0c9ac539364024390029",
-  "sourceMap": "26:2405:1:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "26:2405:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2128:300;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;987:128;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1902:187;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;757:170;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1163:688;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2128:300;2202:7;2211;2238:21;:39;2260:16;2238:39;;;;;;;;;;;;;;;:54;;:66;2293:10;2238:66;;;;;;;;;;;;;;;:80;;;2336:21;:39;2358:16;2336:39;;;;;;;;;;;;;;;:54;;:66;2391:10;2336:66;;;;;;;;;;;;;;;:84;;;2230:191;;;;2128:300;;;:::o;987:128::-;1045:7;1071:16;:30;1088:12;1071:30;;;;;;;;;;;;;;;:37;;;1064:44;;987:128;;;:::o;1902:187::-;1976:7;2002:21;:33;2024:10;2002:33;;;;;;;;;;;;;;;:48;;:66;2051:16;2002:66;;;;;;;;;;;;;;;:80;;;1995:87;;1902:187;;;:::o;757:170::-;890:30;;;;;;;;;899:7;890:30;;;;;;;908:11;890:30;;;;;859:16;:28;876:10;859:28;;;;;;;;;;;;;;;:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;757:170;;:::o;1163:688::-;1466:43;1512:21;:33;1534:10;1512:33;;;;;;;;;;;;;;;1466:79;;1622:27;1555:17;:32;;:50;1588:16;1555:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1726:27;1659:17;:32;;:50;1692:16;1659:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1834:10;1763:17;:32;;:50;1796:16;1763:50;;;;;;;;;;;;;;;:68;;:81;;;;;;;1163:688;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.17;\n\ncontract PePointContract {\n    struct UserInfo {\n        bytes32 pubKey;\n        bool isCustomer;\n    }\n\n    struct PointInfo {\n        bytes32 pointCustomer;\n        bytes32 pointRetailer;\n\n        //we can add hash of score to verify from customer and retailer\n        //retailer hash point before encrypt => customer decrypt the point, \n        //=> hash the point and compare with the hash of retailer\n        bytes32 pointHashRetailer;\n    }\n\n    struct CustomerPointInfo {\n        mapping (address => PointInfo) mPointCustomer;\n    }\n\n    mapping(address => UserInfo) private mUserInfoManager;\n\n    mapping(address => CustomerPointInfo) mRetailerManagerPoint;\n\n\n    //creater user (customer and retailer) with public key\n    function createUser (bytes32 _pubKey, bool _isCustomer) {\n        //save user info to mapping\n        mUserInfoManager[msg.sender] = UserInfo(_pubKey, _isCustomer);\n    }\n\n    //get public key of a user\n    //retailer can get\n    function getPublicKeyUser (address _addressUser) returns (bytes32) {\n        return mUserInfoManager[_addressUser].pubKey;\n    }\n\n    //retailer update the customer point \n    function updateScoreToCustomer (address _addressCustomer, bytes32 _totalScoreEncryptCusPubKey, \n                                    bytes32 _totalScoreEncryptRetPubKey, bytes32 _scoreChangeEncCusPubkey,\n                                    bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint) {\n        CustomerPointInfo storage customerPointData = mRetailerManagerPoint[msg.sender];\n        customerPointData.mPointCustomer[_addressCustomer].pointCustomer = _totalScoreEncryptCusPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointRetailer = _totalScoreEncryptRetPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointHashRetailer = _hashPoint;\n    }\n\n    //Retailer get the current point of user\n    function getScoreCustomerFromRetailer (address _addressCustomer) returns (bytes32) {\n        return mRetailerManagerPoint[msg.sender].mPointCustomer[_addressCustomer].pointRetailer;\n    }\n\n    //Customer check their point\n    function getScoreCustomerFromCustomer (address _addressRetailer) returns (bytes32, bytes32) {\n        return (mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointCustomer,\n                mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointHashRetailer);\n    }\n\n}",
-  "sourcePath": "/Users/admin/Documents/Competition/BlockChain2017/GIT_SOURCE/SmartContract/contracts/PePointContract.sol",
+  "bytecode": "0x6060604052341561000f57600080fd5b6106048061001e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a72305820c59afbec2ba6aca005f2ae5e14316a9d991ae31e92d54df73a4693a372beee4d0029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a72305820c59afbec2ba6aca005f2ae5e14316a9d991ae31e92d54df73a4693a372beee4d0029",
+  "sourceMap": "26:2454:1:-;;;697:43;;;;;;;;26:2454;;;;;;",
+  "deployedSourceMap": "26:2454:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2177:300;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1036:128;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1951:187;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;806:170;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1212:688;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2177:300;2251:7;2260;2287:21;:39;2309:16;2287:39;;;;;;;;;;;;;;;:54;;:66;2342:10;2287:66;;;;;;;;;;;;;;;:80;;;2385:21;:39;2407:16;2385:39;;;;;;;;;;;;;;;:54;;:66;2440:10;2385:66;;;;;;;;;;;;;;;:84;;;2279:191;;;;2177:300;;;:::o;1036:128::-;1094:7;1120:16;:30;1137:12;1120:30;;;;;;;;;;;;;;;:37;;;1113:44;;1036:128;;;:::o;1951:187::-;2025:7;2051:21;:33;2073:10;2051:33;;;;;;;;;;;;;;;:48;;:66;2100:16;2051:66;;;;;;;;;;;;;;;:80;;;2044:87;;1951:187;;;:::o;806:170::-;939:30;;;;;;;;;948:7;939:30;;;;;;;957:11;939:30;;;;;908:16;:28;925:10;908:28;;;;;;;;;;;;;;;:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;806:170;;:::o;1212:688::-;1515:43;1561:21;:33;1583:10;1561:33;;;;;;;;;;;;;;;1515:79;;1671:27;1604:17;:32;;:50;1637:16;1604:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1775:27;1708:17;:32;;:50;1741:16;1708:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1883:10;1812:17;:32;;:50;1845:16;1812:50;;;;;;;;;;;;;;;:68;;:81;;;;;;;1212:688;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.17;\n\ncontract PePointContract {\n    struct UserInfo {\n        bytes32 pubKey;\n        bool isCustomer;\n    }\n\n    struct PointInfo {\n        bytes32 pointCustomer;\n        bytes32 pointRetailer;\n\n        //we can add hash of score to verify from customer and retailer\n        //retailer hash point before encrypt => customer decrypt the point, \n        //=> hash the point and compare with the hash of retailer\n        bytes32 pointHashRetailer;\n    }\n\n    struct CustomerPointInfo {\n        mapping (address => PointInfo) mPointCustomer;\n    }\n\n    mapping(address => UserInfo) private mUserInfoManager;\n\n    mapping(address => CustomerPointInfo) mRetailerManagerPoint;\n\n    function PePointContract() {\n        \n    }\n\n\n    //creater user (customer and retailer) with public key\n    function createUser (bytes32 _pubKey, bool _isCustomer) {\n        //save user info to mapping\n        mUserInfoManager[msg.sender] = UserInfo(_pubKey, _isCustomer);\n    }\n\n    //get public key of a user\n    //retailer can get\n    function getPublicKeyUser (address _addressUser) returns (bytes32) {\n        return mUserInfoManager[_addressUser].pubKey;\n    }\n\n    //retailer update the customer point \n    function updateScoreToCustomer (address _addressCustomer, bytes32 _totalScoreEncryptCusPubKey, \n                                    bytes32 _totalScoreEncryptRetPubKey, bytes32 _scoreChangeEncCusPubkey,\n                                    bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint) {\n        CustomerPointInfo storage customerPointData = mRetailerManagerPoint[msg.sender];\n        customerPointData.mPointCustomer[_addressCustomer].pointCustomer = _totalScoreEncryptCusPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointRetailer = _totalScoreEncryptRetPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointHashRetailer = _hashPoint;\n    }\n\n    //Retailer get the current point of user\n    function getScoreCustomerFromRetailer (address _addressCustomer) returns (bytes32) {\n        return mRetailerManagerPoint[msg.sender].mPointCustomer[_addressCustomer].pointRetailer;\n    }\n\n    //Customer check their point\n    function getScoreCustomerFromCustomer (address _addressRetailer) returns (bytes32, bytes32) {\n        return (mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointCustomer,\n                mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointHashRetailer);\n    }\n\n}",
+  "sourcePath": "/Users/zinky/Desktop/Loyalty/blockathon2017-team2/SmartContract/contracts/PePointContract.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/Users/admin/Documents/Competition/BlockChain2017/GIT_SOURCE/SmartContract/contracts/PePointContract.sol",
+      "absolutePath": "/Users/zinky/Desktop/Loyalty/blockathon2017-team2/SmartContract/contracts/PePointContract.sol",
       "exportedSymbols": {
         "PePointContract": [
-          210
+          214
         ]
       }
     },
@@ -156,17 +162,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            210
+            214
           ],
           "name": "PePointContract",
-          "scope": 211
+          "scope": 215
         },
         "children": [
           {
             "attributes": {
               "canonicalName": "PePointContract.UserInfo",
               "name": "UserInfo",
-              "scope": 210,
+              "scope": 214,
               "visibility": "public"
             },
             "children": [
@@ -231,7 +237,7 @@
             "attributes": {
               "canonicalName": "PePointContract.PointInfo",
               "name": "PointInfo",
-              "scope": 210,
+              "scope": 214,
               "visibility": "public"
             },
             "children": [
@@ -322,7 +328,7 @@
             "attributes": {
               "canonicalName": "PePointContract.CustomerPointInfo",
               "name": "CustomerPointInfo",
-              "scope": 210,
+              "scope": 214,
               "visibility": "public"
             },
             "children": [
@@ -382,7 +388,7 @@
             "attributes": {
               "constant": false,
               "name": "mUserInfoManager",
-              "scope": 210,
+              "scope": 214,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
@@ -429,7 +435,7 @@
             "attributes": {
               "constant": false,
               "name": "mRetailerManagerPoint",
-              "scope": 210,
+              "scope": 214,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
@@ -476,13 +482,67 @@
             "attributes": {
               "constant": false,
               "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "PePointContract",
+              "payable": false,
+              "scope": 214,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 84,
+                "name": "ParameterList",
+                "src": "721:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 85,
+                "name": "ParameterList",
+                "src": "724:0:1"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 86,
+                "name": "Block",
+                "src": "724:16:1"
+              }
+            ],
+            "id": 87,
+            "name": "FunctionDefinition",
+            "src": "697:43:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
               "isConstructor": false,
               "modifiers": [
                 null
               ],
               "name": "createUser",
               "payable": false,
-              "scope": 210,
+              "scope": 214,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -494,7 +554,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_pubKey",
-                      "scope": 101,
+                      "scope": 105,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -507,20 +567,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 84,
+                        "id": 88,
                         "name": "ElementaryTypeName",
-                        "src": "778:7:1"
+                        "src": "827:7:1"
                       }
                     ],
-                    "id": 85,
+                    "id": 89,
                     "name": "VariableDeclaration",
-                    "src": "778:15:1"
+                    "src": "827:15:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_isCustomer",
-                      "scope": 101,
+                      "scope": 105,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -533,19 +593,19 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 86,
+                        "id": 90,
                         "name": "ElementaryTypeName",
-                        "src": "795:4:1"
+                        "src": "844:4:1"
                       }
                     ],
-                    "id": 87,
+                    "id": 91,
                     "name": "VariableDeclaration",
-                    "src": "795:16:1"
+                    "src": "844:16:1"
                   }
                 ],
-                "id": 88,
+                "id": 92,
                 "name": "ParameterList",
-                "src": "777:35:1"
+                "src": "826:35:1"
               },
               {
                 "attributes": {
@@ -554,9 +614,9 @@
                   ]
                 },
                 "children": [],
-                "id": 89,
+                "id": 93,
                 "name": "ParameterList",
-                "src": "813:0:1"
+                "src": "862:0:1"
               },
               {
                 "children": [
@@ -593,9 +653,9 @@
                                   "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
                                   "value": "mUserInfoManager"
                                 },
-                                "id": 90,
+                                "id": 94,
                                 "name": "Identifier",
-                                "src": "859:16:1"
+                                "src": "908:16:1"
                               },
                               {
                                 "attributes": {
@@ -615,23 +675,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 222,
+                                      "referencedDeclaration": 226,
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 91,
+                                    "id": 95,
                                     "name": "Identifier",
-                                    "src": "876:3:1"
+                                    "src": "925:3:1"
                                   }
                                 ],
-                                "id": 92,
+                                "id": 96,
                                 "name": "MemberAccess",
-                                "src": "876:10:1"
+                                "src": "925:10:1"
                               }
                             ],
-                            "id": 93,
+                            "id": 97,
                             "name": "IndexAccess",
-                            "src": "859:28:1"
+                            "src": "908:28:1"
                           },
                           {
                             "attributes": {
@@ -667,9 +727,9 @@
                                   "type": "type(struct PePointContract.UserInfo storage pointer)",
                                   "value": "UserInfo"
                                 },
-                                "id": 94,
+                                "id": 98,
                                 "name": "Identifier",
-                                "src": "890:8:1"
+                                "src": "939:8:1"
                               },
                               {
                                 "attributes": {
@@ -677,13 +737,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 85,
+                                  "referencedDeclaration": 89,
                                   "type": "bytes32",
                                   "value": "_pubKey"
                                 },
-                                "id": 95,
+                                "id": 99,
                                 "name": "Identifier",
-                                "src": "899:7:1"
+                                "src": "948:7:1"
                               },
                               {
                                 "attributes": {
@@ -691,38 +751,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 87,
+                                  "referencedDeclaration": 91,
                                   "type": "bool",
                                   "value": "_isCustomer"
                                 },
-                                "id": 96,
+                                "id": 100,
                                 "name": "Identifier",
-                                "src": "908:11:1"
+                                "src": "957:11:1"
                               }
                             ],
-                            "id": 97,
+                            "id": 101,
                             "name": "FunctionCall",
-                            "src": "890:30:1"
+                            "src": "939:30:1"
                           }
                         ],
-                        "id": 98,
+                        "id": 102,
                         "name": "Assignment",
-                        "src": "859:61:1"
+                        "src": "908:61:1"
                       }
                     ],
-                    "id": 99,
+                    "id": 103,
                     "name": "ExpressionStatement",
-                    "src": "859:61:1"
+                    "src": "908:61:1"
                   }
                 ],
-                "id": 100,
+                "id": 104,
                 "name": "Block",
-                "src": "813:114:1"
+                "src": "862:114:1"
               }
             ],
-            "id": 101,
+            "id": 105,
             "name": "FunctionDefinition",
-            "src": "757:170:1"
+            "src": "806:170:1"
           },
           {
             "attributes": {
@@ -734,7 +794,7 @@
               ],
               "name": "getPublicKeyUser",
               "payable": false,
-              "scope": 210,
+              "scope": 214,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -746,7 +806,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_addressUser",
-                      "scope": 114,
+                      "scope": 118,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -759,19 +819,19 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 102,
+                        "id": 106,
                         "name": "ElementaryTypeName",
-                        "src": "1014:7:1"
+                        "src": "1063:7:1"
                       }
                     ],
-                    "id": 103,
+                    "id": 107,
                     "name": "VariableDeclaration",
-                    "src": "1014:20:1"
+                    "src": "1063:20:1"
                   }
                 ],
-                "id": 104,
+                "id": 108,
                 "name": "ParameterList",
-                "src": "1013:22:1"
+                "src": "1062:22:1"
               },
               {
                 "children": [
@@ -779,7 +839,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 114,
+                      "scope": 118,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -792,25 +852,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 105,
+                        "id": 109,
                         "name": "ElementaryTypeName",
-                        "src": "1045:7:1"
+                        "src": "1094:7:1"
                       }
                     ],
-                    "id": 106,
+                    "id": 110,
                     "name": "VariableDeclaration",
-                    "src": "1045:7:1"
+                    "src": "1094:7:1"
                   }
                 ],
-                "id": 107,
+                "id": 111,
                 "name": "ParameterList",
-                "src": "1044:9:1"
+                "src": "1093:9:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 107
+                      "functionReturnParameters": 111
                     },
                     "children": [
                       {
@@ -845,9 +905,9 @@
                                   "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
                                   "value": "mUserInfoManager"
                                 },
-                                "id": 108,
+                                "id": 112,
                                 "name": "Identifier",
-                                "src": "1071:16:1"
+                                "src": "1120:16:1"
                               },
                               {
                                 "attributes": {
@@ -855,38 +915,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 103,
+                                  "referencedDeclaration": 107,
                                   "type": "address",
                                   "value": "_addressUser"
                                 },
-                                "id": 109,
+                                "id": 113,
                                 "name": "Identifier",
-                                "src": "1088:12:1"
+                                "src": "1137:12:1"
                               }
                             ],
-                            "id": 110,
+                            "id": 114,
                             "name": "IndexAccess",
-                            "src": "1071:30:1"
+                            "src": "1120:30:1"
                           }
                         ],
-                        "id": 111,
+                        "id": 115,
                         "name": "MemberAccess",
-                        "src": "1071:37:1"
+                        "src": "1120:37:1"
                       }
                     ],
-                    "id": 112,
+                    "id": 116,
                     "name": "Return",
-                    "src": "1064:44:1"
+                    "src": "1113:44:1"
                   }
                 ],
-                "id": 113,
+                "id": 117,
                 "name": "Block",
-                "src": "1054:61:1"
+                "src": "1103:61:1"
               }
             ],
-            "id": 114,
+            "id": 118,
             "name": "FunctionDefinition",
-            "src": "987:128:1"
+            "src": "1036:128:1"
           },
           {
             "attributes": {
@@ -898,7 +958,7 @@
               ],
               "name": "updateScoreToCustomer",
               "payable": false,
-              "scope": 210,
+              "scope": 214,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -910,7 +970,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_addressCustomer",
-                      "scope": 164,
+                      "scope": 168,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -923,72 +983,20 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 115,
+                        "id": 119,
                         "name": "ElementaryTypeName",
-                        "src": "1195:7:1"
+                        "src": "1244:7:1"
                       }
                     ],
-                    "id": 116,
+                    "id": 120,
                     "name": "VariableDeclaration",
-                    "src": "1195:24:1"
+                    "src": "1244:24:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_totalScoreEncryptCusPubKey",
-                      "scope": 164,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "bytes32",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "bytes32",
-                          "type": "bytes32"
-                        },
-                        "id": 117,
-                        "name": "ElementaryTypeName",
-                        "src": "1221:7:1"
-                      }
-                    ],
-                    "id": 118,
-                    "name": "VariableDeclaration",
-                    "src": "1221:35:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_totalScoreEncryptRetPubKey",
-                      "scope": 164,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "bytes32",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "bytes32",
-                          "type": "bytes32"
-                        },
-                        "id": 119,
-                        "name": "ElementaryTypeName",
-                        "src": "1295:7:1"
-                      }
-                    ],
-                    "id": 120,
-                    "name": "VariableDeclaration",
-                    "src": "1295:35:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_scoreChangeEncCusPubkey",
-                      "scope": 164,
+                      "scope": 168,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1003,18 +1011,18 @@
                         },
                         "id": 121,
                         "name": "ElementaryTypeName",
-                        "src": "1332:7:1"
+                        "src": "1270:7:1"
                       }
                     ],
                     "id": 122,
                     "name": "VariableDeclaration",
-                    "src": "1332:32:1"
+                    "src": "1270:35:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
-                      "name": "_scoreChangeEncRetPubkey",
-                      "scope": 164,
+                      "name": "_totalScoreEncryptRetPubKey",
+                      "scope": 168,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1029,18 +1037,18 @@
                         },
                         "id": 123,
                         "name": "ElementaryTypeName",
-                        "src": "1402:7:1"
+                        "src": "1344:7:1"
                       }
                     ],
                     "id": 124,
                     "name": "VariableDeclaration",
-                    "src": "1402:32:1"
+                    "src": "1344:35:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
-                      "name": "_hashPoint",
-                      "scope": 164,
+                      "name": "_scoreChangeEncCusPubkey",
+                      "scope": 168,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1055,17 +1063,69 @@
                         },
                         "id": 125,
                         "name": "ElementaryTypeName",
-                        "src": "1436:7:1"
+                        "src": "1381:7:1"
                       }
                     ],
                     "id": 126,
                     "name": "VariableDeclaration",
-                    "src": "1436:18:1"
+                    "src": "1381:32:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_scoreChangeEncRetPubkey",
+                      "scope": 168,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 127,
+                        "name": "ElementaryTypeName",
+                        "src": "1451:7:1"
+                      }
+                    ],
+                    "id": 128,
+                    "name": "VariableDeclaration",
+                    "src": "1451:32:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_hashPoint",
+                      "scope": 168,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 129,
+                        "name": "ElementaryTypeName",
+                        "src": "1485:7:1"
+                      }
+                    ],
+                    "id": 130,
+                    "name": "VariableDeclaration",
+                    "src": "1485:18:1"
                   }
                 ],
-                "id": 127,
+                "id": 131,
                 "name": "ParameterList",
-                "src": "1194:261:1"
+                "src": "1243:261:1"
               },
               {
                 "attributes": {
@@ -1074,16 +1134,16 @@
                   ]
                 },
                 "children": [],
-                "id": 128,
+                "id": 132,
                 "name": "ParameterList",
-                "src": "1456:0:1"
+                "src": "1505:0:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        130
+                        134
                       ]
                     },
                     "children": [
@@ -1091,7 +1151,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "customerPointData",
-                          "scope": 164,
+                          "scope": 168,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct PePointContract.CustomerPointInfo storage pointer",
@@ -1106,14 +1166,14 @@
                               "referencedDeclaration": 75,
                               "type": "struct PePointContract.CustomerPointInfo storage pointer"
                             },
-                            "id": 129,
+                            "id": 133,
                             "name": "UserDefinedTypeName",
-                            "src": "1466:17:1"
+                            "src": "1515:17:1"
                           }
                         ],
-                        "id": 130,
+                        "id": 134,
                         "name": "VariableDeclaration",
-                        "src": "1466:43:1"
+                        "src": "1515:43:1"
                       },
                       {
                         "attributes": {
@@ -1135,9 +1195,9 @@
                               "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
                               "value": "mRetailerManagerPoint"
                             },
-                            "id": 131,
+                            "id": 135,
                             "name": "Identifier",
-                            "src": "1512:21:1"
+                            "src": "1561:21:1"
                           },
                           {
                             "attributes": {
@@ -1157,28 +1217,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 222,
+                                  "referencedDeclaration": 226,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 132,
+                                "id": 136,
                                 "name": "Identifier",
-                                "src": "1534:3:1"
+                                "src": "1583:3:1"
                               }
                             ],
-                            "id": 133,
+                            "id": 137,
                             "name": "MemberAccess",
-                            "src": "1534:10:1"
+                            "src": "1583:10:1"
                           }
                         ],
-                        "id": 134,
+                        "id": 138,
                         "name": "IndexAccess",
-                        "src": "1512:33:1"
+                        "src": "1561:33:1"
                       }
                     ],
-                    "id": 135,
+                    "id": 139,
                     "name": "VariableDeclarationStatement",
-                    "src": "1466:79:1"
+                    "src": "1515:79:1"
                   },
                   {
                     "children": [
@@ -1233,18 +1293,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 130,
+                                          "referencedDeclaration": 134,
                                           "type": "struct PePointContract.CustomerPointInfo storage pointer",
                                           "value": "customerPointData"
                                         },
-                                        "id": 136,
+                                        "id": 140,
                                         "name": "Identifier",
-                                        "src": "1555:17:1"
+                                        "src": "1604:17:1"
                                       }
                                     ],
-                                    "id": 139,
+                                    "id": 143,
                                     "name": "MemberAccess",
-                                    "src": "1555:32:1"
+                                    "src": "1604:32:1"
                                   },
                                   {
                                     "attributes": {
@@ -1252,23 +1312,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 116,
+                                      "referencedDeclaration": 120,
                                       "type": "address",
                                       "value": "_addressCustomer"
                                     },
-                                    "id": 138,
+                                    "id": 142,
                                     "name": "Identifier",
-                                    "src": "1588:16:1"
+                                    "src": "1637:16:1"
                                   }
                                 ],
-                                "id": 140,
+                                "id": 144,
                                 "name": "IndexAccess",
-                                "src": "1555:50:1"
+                                "src": "1604:50:1"
                               }
                             ],
-                            "id": 141,
+                            "id": 145,
                             "name": "MemberAccess",
-                            "src": "1555:64:1"
+                            "src": "1604:64:1"
                           },
                           {
                             "attributes": {
@@ -1276,23 +1336,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 118,
+                              "referencedDeclaration": 122,
                               "type": "bytes32",
                               "value": "_totalScoreEncryptCusPubKey"
                             },
-                            "id": 142,
+                            "id": 146,
                             "name": "Identifier",
-                            "src": "1622:27:1"
+                            "src": "1671:27:1"
                           }
                         ],
-                        "id": 143,
+                        "id": 147,
                         "name": "Assignment",
-                        "src": "1555:94:1"
+                        "src": "1604:94:1"
                       }
                     ],
-                    "id": 144,
+                    "id": 148,
                     "name": "ExpressionStatement",
-                    "src": "1555:94:1"
+                    "src": "1604:94:1"
                   },
                   {
                     "children": [
@@ -1347,18 +1407,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 130,
+                                          "referencedDeclaration": 134,
                                           "type": "struct PePointContract.CustomerPointInfo storage pointer",
                                           "value": "customerPointData"
                                         },
-                                        "id": 145,
+                                        "id": 149,
                                         "name": "Identifier",
-                                        "src": "1659:17:1"
+                                        "src": "1708:17:1"
                                       }
                                     ],
-                                    "id": 148,
+                                    "id": 152,
                                     "name": "MemberAccess",
-                                    "src": "1659:32:1"
+                                    "src": "1708:32:1"
                                   },
                                   {
                                     "attributes": {
@@ -1366,23 +1426,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 116,
+                                      "referencedDeclaration": 120,
                                       "type": "address",
                                       "value": "_addressCustomer"
                                     },
-                                    "id": 147,
+                                    "id": 151,
                                     "name": "Identifier",
-                                    "src": "1692:16:1"
+                                    "src": "1741:16:1"
                                   }
                                 ],
-                                "id": 149,
+                                "id": 153,
                                 "name": "IndexAccess",
-                                "src": "1659:50:1"
+                                "src": "1708:50:1"
                               }
                             ],
-                            "id": 150,
+                            "id": 154,
                             "name": "MemberAccess",
-                            "src": "1659:64:1"
+                            "src": "1708:64:1"
                           },
                           {
                             "attributes": {
@@ -1390,23 +1450,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 120,
+                              "referencedDeclaration": 124,
                               "type": "bytes32",
                               "value": "_totalScoreEncryptRetPubKey"
                             },
-                            "id": 151,
+                            "id": 155,
                             "name": "Identifier",
-                            "src": "1726:27:1"
+                            "src": "1775:27:1"
                           }
                         ],
-                        "id": 152,
+                        "id": 156,
                         "name": "Assignment",
-                        "src": "1659:94:1"
+                        "src": "1708:94:1"
                       }
                     ],
-                    "id": 153,
+                    "id": 157,
                     "name": "ExpressionStatement",
-                    "src": "1659:94:1"
+                    "src": "1708:94:1"
                   },
                   {
                     "children": [
@@ -1461,18 +1521,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 130,
+                                          "referencedDeclaration": 134,
                                           "type": "struct PePointContract.CustomerPointInfo storage pointer",
                                           "value": "customerPointData"
                                         },
-                                        "id": 154,
+                                        "id": 158,
                                         "name": "Identifier",
-                                        "src": "1763:17:1"
+                                        "src": "1812:17:1"
                                       }
                                     ],
-                                    "id": 157,
+                                    "id": 161,
                                     "name": "MemberAccess",
-                                    "src": "1763:32:1"
+                                    "src": "1812:32:1"
                                   },
                                   {
                                     "attributes": {
@@ -1480,23 +1540,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 116,
+                                      "referencedDeclaration": 120,
                                       "type": "address",
                                       "value": "_addressCustomer"
                                     },
-                                    "id": 156,
+                                    "id": 160,
                                     "name": "Identifier",
-                                    "src": "1796:16:1"
+                                    "src": "1845:16:1"
                                   }
                                 ],
-                                "id": 158,
+                                "id": 162,
                                 "name": "IndexAccess",
-                                "src": "1763:50:1"
+                                "src": "1812:50:1"
                               }
                             ],
-                            "id": 159,
+                            "id": 163,
                             "name": "MemberAccess",
-                            "src": "1763:68:1"
+                            "src": "1812:68:1"
                           },
                           {
                             "attributes": {
@@ -1504,33 +1564,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 126,
+                              "referencedDeclaration": 130,
                               "type": "bytes32",
                               "value": "_hashPoint"
                             },
-                            "id": 160,
+                            "id": 164,
                             "name": "Identifier",
-                            "src": "1834:10:1"
+                            "src": "1883:10:1"
                           }
                         ],
-                        "id": 161,
+                        "id": 165,
                         "name": "Assignment",
-                        "src": "1763:81:1"
+                        "src": "1812:81:1"
                       }
                     ],
-                    "id": 162,
+                    "id": 166,
                     "name": "ExpressionStatement",
-                    "src": "1763:81:1"
+                    "src": "1812:81:1"
                   }
                 ],
-                "id": 163,
+                "id": 167,
                 "name": "Block",
-                "src": "1456:395:1"
+                "src": "1505:395:1"
               }
             ],
-            "id": 164,
+            "id": 168,
             "name": "FunctionDefinition",
-            "src": "1163:688:1"
+            "src": "1212:688:1"
           },
           {
             "attributes": {
@@ -1542,7 +1602,7 @@
               ],
               "name": "getScoreCustomerFromRetailer",
               "payable": false,
-              "scope": 210,
+              "scope": 214,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1554,7 +1614,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_addressCustomer",
-                      "scope": 181,
+                      "scope": 185,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1567,19 +1627,19 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 165,
+                        "id": 169,
                         "name": "ElementaryTypeName",
-                        "src": "1941:7:1"
+                        "src": "1990:7:1"
                       }
                     ],
-                    "id": 166,
+                    "id": 170,
                     "name": "VariableDeclaration",
-                    "src": "1941:24:1"
+                    "src": "1990:24:1"
                   }
                 ],
-                "id": 167,
+                "id": 171,
                 "name": "ParameterList",
-                "src": "1940:26:1"
+                "src": "1989:26:1"
               },
               {
                 "children": [
@@ -1587,7 +1647,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 181,
+                      "scope": 185,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1600,25 +1660,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 168,
+                        "id": 172,
                         "name": "ElementaryTypeName",
-                        "src": "1976:7:1"
+                        "src": "2025:7:1"
                       }
                     ],
-                    "id": 169,
+                    "id": 173,
                     "name": "VariableDeclaration",
-                    "src": "1976:7:1"
+                    "src": "2025:7:1"
                   }
                 ],
-                "id": 170,
+                "id": 174,
                 "name": "ParameterList",
-                "src": "1975:9:1"
+                "src": "2024:9:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 170
+                      "functionReturnParameters": 174
                     },
                     "children": [
                       {
@@ -1675,9 +1735,9 @@
                                           "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
                                           "value": "mRetailerManagerPoint"
                                         },
-                                        "id": 171,
+                                        "id": 175,
                                         "name": "Identifier",
-                                        "src": "2002:21:1"
+                                        "src": "2051:21:1"
                                       },
                                       {
                                         "attributes": {
@@ -1697,28 +1757,28 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 222,
+                                              "referencedDeclaration": 226,
                                               "type": "msg",
                                               "value": "msg"
                                             },
-                                            "id": 172,
+                                            "id": 176,
                                             "name": "Identifier",
-                                            "src": "2024:3:1"
+                                            "src": "2073:3:1"
                                           }
                                         ],
-                                        "id": 173,
+                                        "id": 177,
                                         "name": "MemberAccess",
-                                        "src": "2024:10:1"
+                                        "src": "2073:10:1"
                                       }
                                     ],
-                                    "id": 174,
+                                    "id": 178,
                                     "name": "IndexAccess",
-                                    "src": "2002:33:1"
+                                    "src": "2051:33:1"
                                   }
                                 ],
-                                "id": 175,
+                                "id": 179,
                                 "name": "MemberAccess",
-                                "src": "2002:48:1"
+                                "src": "2051:48:1"
                               },
                               {
                                 "attributes": {
@@ -1726,38 +1786,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 166,
+                                  "referencedDeclaration": 170,
                                   "type": "address",
                                   "value": "_addressCustomer"
                                 },
-                                "id": 176,
+                                "id": 180,
                                 "name": "Identifier",
-                                "src": "2051:16:1"
+                                "src": "2100:16:1"
                               }
                             ],
-                            "id": 177,
+                            "id": 181,
                             "name": "IndexAccess",
-                            "src": "2002:66:1"
+                            "src": "2051:66:1"
                           }
                         ],
-                        "id": 178,
+                        "id": 182,
                         "name": "MemberAccess",
-                        "src": "2002:80:1"
+                        "src": "2051:80:1"
                       }
                     ],
-                    "id": 179,
+                    "id": 183,
                     "name": "Return",
-                    "src": "1995:87:1"
+                    "src": "2044:87:1"
                   }
                 ],
-                "id": 180,
+                "id": 184,
                 "name": "Block",
-                "src": "1985:104:1"
+                "src": "2034:104:1"
               }
             ],
-            "id": 181,
+            "id": 185,
             "name": "FunctionDefinition",
-            "src": "1902:187:1"
+            "src": "1951:187:1"
           },
           {
             "attributes": {
@@ -1769,7 +1829,7 @@
               ],
               "name": "getScoreCustomerFromCustomer",
               "payable": false,
-              "scope": 210,
+              "scope": 214,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1781,7 +1841,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_addressRetailer",
-                      "scope": 209,
+                      "scope": 213,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1794,19 +1854,19 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 182,
+                        "id": 186,
                         "name": "ElementaryTypeName",
-                        "src": "2167:7:1"
+                        "src": "2216:7:1"
                       }
                     ],
-                    "id": 183,
+                    "id": 187,
                     "name": "VariableDeclaration",
-                    "src": "2167:24:1"
+                    "src": "2216:24:1"
                   }
                 ],
-                "id": 184,
+                "id": 188,
                 "name": "ParameterList",
-                "src": "2166:26:1"
+                "src": "2215:26:1"
               },
               {
                 "children": [
@@ -1814,7 +1874,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 209,
+                      "scope": 213,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1827,20 +1887,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 185,
+                        "id": 189,
                         "name": "ElementaryTypeName",
-                        "src": "2202:7:1"
+                        "src": "2251:7:1"
                       }
                     ],
-                    "id": 186,
+                    "id": 190,
                     "name": "VariableDeclaration",
-                    "src": "2202:7:1"
+                    "src": "2251:7:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 209,
+                      "scope": 213,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1853,25 +1913,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 187,
+                        "id": 191,
                         "name": "ElementaryTypeName",
-                        "src": "2211:7:1"
+                        "src": "2260:7:1"
                       }
                     ],
-                    "id": 188,
+                    "id": 192,
                     "name": "VariableDeclaration",
-                    "src": "2211:7:1"
+                    "src": "2260:7:1"
                   }
                 ],
-                "id": 189,
+                "id": 193,
                 "name": "ParameterList",
-                "src": "2201:18:1"
+                "src": "2250:18:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 189
+                      "functionReturnParameters": 193
                     },
                     "children": [
                       {
@@ -1939,9 +1999,9 @@
                                               "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
                                               "value": "mRetailerManagerPoint"
                                             },
-                                            "id": 190,
+                                            "id": 194,
                                             "name": "Identifier",
-                                            "src": "2238:21:1"
+                                            "src": "2287:21:1"
                                           },
                                           {
                                             "attributes": {
@@ -1949,23 +2009,23 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 183,
+                                              "referencedDeclaration": 187,
                                               "type": "address",
                                               "value": "_addressRetailer"
                                             },
-                                            "id": 191,
+                                            "id": 195,
                                             "name": "Identifier",
-                                            "src": "2260:16:1"
+                                            "src": "2309:16:1"
                                           }
                                         ],
-                                        "id": 192,
+                                        "id": 196,
                                         "name": "IndexAccess",
-                                        "src": "2238:39:1"
+                                        "src": "2287:39:1"
                                       }
                                     ],
-                                    "id": 193,
+                                    "id": 197,
                                     "name": "MemberAccess",
-                                    "src": "2238:54:1"
+                                    "src": "2287:54:1"
                                   },
                                   {
                                     "attributes": {
@@ -1985,28 +2045,28 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 222,
+                                          "referencedDeclaration": 226,
                                           "type": "msg",
                                           "value": "msg"
                                         },
-                                        "id": 194,
+                                        "id": 198,
                                         "name": "Identifier",
-                                        "src": "2293:3:1"
+                                        "src": "2342:3:1"
                                       }
                                     ],
-                                    "id": 195,
+                                    "id": 199,
                                     "name": "MemberAccess",
-                                    "src": "2293:10:1"
+                                    "src": "2342:10:1"
                                   }
                                 ],
-                                "id": 196,
+                                "id": 200,
                                 "name": "IndexAccess",
-                                "src": "2238:66:1"
+                                "src": "2287:66:1"
                               }
                             ],
-                            "id": 197,
+                            "id": 201,
                             "name": "MemberAccess",
-                            "src": "2238:80:1"
+                            "src": "2287:80:1"
                           },
                           {
                             "attributes": {
@@ -2062,9 +2122,9 @@
                                               "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
                                               "value": "mRetailerManagerPoint"
                                             },
-                                            "id": 198,
+                                            "id": 202,
                                             "name": "Identifier",
-                                            "src": "2336:21:1"
+                                            "src": "2385:21:1"
                                           },
                                           {
                                             "attributes": {
@@ -2072,23 +2132,23 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 183,
+                                              "referencedDeclaration": 187,
                                               "type": "address",
                                               "value": "_addressRetailer"
                                             },
-                                            "id": 199,
+                                            "id": 203,
                                             "name": "Identifier",
-                                            "src": "2358:16:1"
+                                            "src": "2407:16:1"
                                           }
                                         ],
-                                        "id": 200,
+                                        "id": 204,
                                         "name": "IndexAccess",
-                                        "src": "2336:39:1"
+                                        "src": "2385:39:1"
                                       }
                                     ],
-                                    "id": 201,
+                                    "id": 205,
                                     "name": "MemberAccess",
-                                    "src": "2336:54:1"
+                                    "src": "2385:54:1"
                                   },
                                   {
                                     "attributes": {
@@ -2108,64 +2168,70 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 222,
+                                          "referencedDeclaration": 226,
                                           "type": "msg",
                                           "value": "msg"
                                         },
-                                        "id": 202,
+                                        "id": 206,
                                         "name": "Identifier",
-                                        "src": "2391:3:1"
+                                        "src": "2440:3:1"
                                       }
                                     ],
-                                    "id": 203,
+                                    "id": 207,
                                     "name": "MemberAccess",
-                                    "src": "2391:10:1"
+                                    "src": "2440:10:1"
                                   }
                                 ],
-                                "id": 204,
+                                "id": 208,
                                 "name": "IndexAccess",
-                                "src": "2336:66:1"
+                                "src": "2385:66:1"
                               }
                             ],
-                            "id": 205,
+                            "id": 209,
                             "name": "MemberAccess",
-                            "src": "2336:84:1"
+                            "src": "2385:84:1"
                           }
                         ],
-                        "id": 206,
+                        "id": 210,
                         "name": "TupleExpression",
-                        "src": "2237:184:1"
+                        "src": "2286:184:1"
                       }
                     ],
-                    "id": 207,
+                    "id": 211,
                     "name": "Return",
-                    "src": "2230:191:1"
+                    "src": "2279:191:1"
                   }
                 ],
-                "id": 208,
+                "id": 212,
                 "name": "Block",
-                "src": "2220:208:1"
+                "src": "2269:208:1"
               }
             ],
-            "id": 209,
+            "id": 213,
             "name": "FunctionDefinition",
-            "src": "2128:300:1"
+            "src": "2177:300:1"
           }
         ],
-        "id": 210,
+        "id": 214,
         "name": "ContractDefinition",
-        "src": "26:2405:1"
+        "src": "26:2454:1"
       }
     ],
-    "id": 211,
+    "id": 215,
     "name": "SourceUnit",
-    "src": "0:2431:1"
+    "src": "0:2480:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x5fc231781a9d31920842d8234a1a815750beb880"
+    }
+  },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-25T06:49:53.036Z"
+  "updatedAt": "2017-11-25T09:51:40.212Z"
 }
