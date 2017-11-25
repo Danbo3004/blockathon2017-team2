@@ -1,1 +1,1 @@
-web: node Web3Server/index.js
+web: node index.js
