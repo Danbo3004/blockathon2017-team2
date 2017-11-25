@@ -1,0 +1,2171 @@
+{
+  "contractName": "PePointContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addressRetailer",
+          "type": "address"
+        }
+      ],
+      "name": "getScoreCustomerFromCustomer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addressUser",
+          "type": "address"
+        }
+      ],
+      "name": "getPublicKeyUser",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addressCustomer",
+          "type": "address"
+        }
+      ],
+      "name": "getScoreCustomerFromRetailer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_pubKey",
+          "type": "bytes32"
+        },
+        {
+          "name": "_isCustomer",
+          "type": "bool"
+        }
+      ],
+      "name": "createUser",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addressCustomer",
+          "type": "address"
+        },
+        {
+          "name": "_totalScoreEncryptCusPubKey",
+          "type": "bytes32"
+        },
+        {
+          "name": "_totalScoreEncryptRetPubKey",
+          "type": "bytes32"
+        },
+        {
+          "name": "_scoreChangeEncCusPubkey",
+          "type": "bytes32"
+        },
+        {
+          "name": "_scoreChangeEncRetPubkey",
+          "type": "bytes32"
+        },
+        {
+          "name": "_hashPoint",
+          "type": "bytes32"
+        }
+      ],
+      "name": "updateScoreToCustomer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b6106048061001e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a723058208027437b88d5d8ef51e08896f9f7a0ac4284c7d4cf54c74e0c9ac539364024390029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806329e245a51461007257806341881b3b146100d657806354948e491461012b5780639506361614610180578063ca9f5e8b146101b2575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061022c565b60405180836000191660001916815260200182600019166000191681526020019250505060405180910390f35b34156100e157600080fd5b61010d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061033e565b60405180826000191660001916815260200191505060405180910390f35b341561013657600080fd5b610162600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610389565b60405180826000191660001916815260200191505060405180910390f35b341561018b57600080fd5b6101b06004808035600019169060200190919080351515906020019091905050610415565b005b34156101bd57600080fd5b61022a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919050506104a5565b005b600080600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000154600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002015491509150915091565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b6040805190810160405280836000191681526020018215158152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000019060001916905560208201518160010160006101000a81548160ff0219169083151502179055509050505050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050858160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018160001916905550848160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018160001916905550818160000160008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206002018160001916905550505050505050505600a165627a7a723058208027437b88d5d8ef51e08896f9f7a0ac4284c7d4cf54c74e0c9ac539364024390029",
+  "sourceMap": "26:2405:1:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:2405:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2128:300;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;987:128;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1902:187;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;757:170;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1163:688;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2128:300;2202:7;2211;2238:21;:39;2260:16;2238:39;;;;;;;;;;;;;;;:54;;:66;2293:10;2238:66;;;;;;;;;;;;;;;:80;;;2336:21;:39;2358:16;2336:39;;;;;;;;;;;;;;;:54;;:66;2391:10;2336:66;;;;;;;;;;;;;;;:84;;;2230:191;;;;2128:300;;;:::o;987:128::-;1045:7;1071:16;:30;1088:12;1071:30;;;;;;;;;;;;;;;:37;;;1064:44;;987:128;;;:::o;1902:187::-;1976:7;2002:21;:33;2024:10;2002:33;;;;;;;;;;;;;;;:48;;:66;2051:16;2002:66;;;;;;;;;;;;;;;:80;;;1995:87;;1902:187;;;:::o;757:170::-;890:30;;;;;;;;;899:7;890:30;;;;;;;908:11;890:30;;;;;859:16;:28;876:10;859:28;;;;;;;;;;;;;;;:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;757:170;;:::o;1163:688::-;1466:43;1512:21;:33;1534:10;1512:33;;;;;;;;;;;;;;;1466:79;;1622:27;1555:17;:32;;:50;1588:16;1555:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1726:27;1659:17;:32;;:50;1692:16;1659:50;;;;;;;;;;;;;;;:64;;:94;;;;;;;1834:10;1763:17;:32;;:50;1796:16;1763:50;;;;;;;;;;;;;;;:68;;:81;;;;;;;1163:688;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.17;\n\ncontract PePointContract {\n    struct UserInfo {\n        bytes32 pubKey;\n        bool isCustomer;\n    }\n\n    struct PointInfo {\n        bytes32 pointCustomer;\n        bytes32 pointRetailer;\n\n        //we can add hash of score to verify from customer and retailer\n        //retailer hash point before encrypt => customer decrypt the point, \n        //=> hash the point and compare with the hash of retailer\n        bytes32 pointHashRetailer;\n    }\n\n    struct CustomerPointInfo {\n        mapping (address => PointInfo) mPointCustomer;\n    }\n\n    mapping(address => UserInfo) private mUserInfoManager;\n\n    mapping(address => CustomerPointInfo) mRetailerManagerPoint;\n\n\n    //creater user (customer and retailer) with public key\n    function createUser (bytes32 _pubKey, bool _isCustomer) {\n        //save user info to mapping\n        mUserInfoManager[msg.sender] = UserInfo(_pubKey, _isCustomer);\n    }\n\n    //get public key of a user\n    //retailer can get\n    function getPublicKeyUser (address _addressUser) returns (bytes32) {\n        return mUserInfoManager[_addressUser].pubKey;\n    }\n\n    //retailer update the customer point \n    function updateScoreToCustomer (address _addressCustomer, bytes32 _totalScoreEncryptCusPubKey, \n                                    bytes32 _totalScoreEncryptRetPubKey, bytes32 _scoreChangeEncCusPubkey,\n                                    bytes32 _scoreChangeEncRetPubkey, bytes32 _hashPoint) {\n        CustomerPointInfo storage customerPointData = mRetailerManagerPoint[msg.sender];\n        customerPointData.mPointCustomer[_addressCustomer].pointCustomer = _totalScoreEncryptCusPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointRetailer = _totalScoreEncryptRetPubKey;\n        customerPointData.mPointCustomer[_addressCustomer].pointHashRetailer = _hashPoint;\n    }\n\n    //Retailer get the current point of user\n    function getScoreCustomerFromRetailer (address _addressCustomer) returns (bytes32) {\n        return mRetailerManagerPoint[msg.sender].mPointCustomer[_addressCustomer].pointRetailer;\n    }\n\n    //Customer check their point\n    function getScoreCustomerFromCustomer (address _addressRetailer) returns (bytes32, bytes32) {\n        return (mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointCustomer,\n                mRetailerManagerPoint[_addressRetailer].mPointCustomer[msg.sender].pointHashRetailer);\n    }\n\n}",
+  "sourcePath": "/Users/admin/Documents/Competition/BlockChain2017/GIT_SOURCE/SmartContract/contracts/PePointContract.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/admin/Documents/Competition/BlockChain2017/GIT_SOURCE/SmartContract/contracts/PePointContract.sol",
+      "exportedSymbols": {
+        "PePointContract": [
+          210
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 58,
+        "name": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            210
+          ],
+          "name": "PePointContract",
+          "scope": 211
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "PePointContract.UserInfo",
+              "name": "UserInfo",
+              "scope": 210,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "pubKey",
+                  "scope": 63,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bytes32",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bytes32",
+                      "type": "bytes32"
+                    },
+                    "id": 59,
+                    "name": "ElementaryTypeName",
+                    "src": "83:7:1"
+                  }
+                ],
+                "id": 60,
+                "name": "VariableDeclaration",
+                "src": "83:14:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "isCustomer",
+                  "scope": 63,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bool",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bool",
+                      "type": "bool"
+                    },
+                    "id": 61,
+                    "name": "ElementaryTypeName",
+                    "src": "107:4:1"
+                  }
+                ],
+                "id": 62,
+                "name": "VariableDeclaration",
+                "src": "107:15:1"
+              }
+            ],
+            "id": 63,
+            "name": "StructDefinition",
+            "src": "57:72:1"
+          },
+          {
+            "attributes": {
+              "canonicalName": "PePointContract.PointInfo",
+              "name": "PointInfo",
+              "scope": 210,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "pointCustomer",
+                  "scope": 70,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bytes32",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bytes32",
+                      "type": "bytes32"
+                    },
+                    "id": 64,
+                    "name": "ElementaryTypeName",
+                    "src": "162:7:1"
+                  }
+                ],
+                "id": 65,
+                "name": "VariableDeclaration",
+                "src": "162:21:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "pointRetailer",
+                  "scope": 70,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bytes32",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bytes32",
+                      "type": "bytes32"
+                    },
+                    "id": 66,
+                    "name": "ElementaryTypeName",
+                    "src": "193:7:1"
+                  }
+                ],
+                "id": 67,
+                "name": "VariableDeclaration",
+                "src": "193:21:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "pointHashRetailer",
+                  "scope": 70,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bytes32",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bytes32",
+                      "type": "bytes32"
+                    },
+                    "id": 68,
+                    "name": "ElementaryTypeName",
+                    "src": "440:7:1"
+                  }
+                ],
+                "id": 69,
+                "name": "VariableDeclaration",
+                "src": "440:25:1"
+              }
+            ],
+            "id": 70,
+            "name": "StructDefinition",
+            "src": "135:337:1"
+          },
+          {
+            "attributes": {
+              "canonicalName": "PePointContract.CustomerPointInfo",
+              "name": "CustomerPointInfo",
+              "scope": 210,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "mPointCustomer",
+                  "scope": 75,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "mapping(address => struct PePointContract.PointInfo storage ref)",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 71,
+                        "name": "ElementaryTypeName",
+                        "src": "522:7:1"
+                      },
+                      {
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "PointInfo",
+                          "referencedDeclaration": 70,
+                          "type": "struct PePointContract.PointInfo storage pointer"
+                        },
+                        "id": 72,
+                        "name": "UserDefinedTypeName",
+                        "src": "533:9:1"
+                      }
+                    ],
+                    "id": 73,
+                    "name": "Mapping",
+                    "src": "513:30:1"
+                  }
+                ],
+                "id": 74,
+                "name": "VariableDeclaration",
+                "src": "513:45:1"
+              }
+            ],
+            "id": 75,
+            "name": "StructDefinition",
+            "src": "478:87:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "mUserInfoManager",
+              "scope": 210,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
+              "value": null,
+              "visibility": "private"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(address => struct PePointContract.UserInfo storage ref)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "address",
+                      "type": "address"
+                    },
+                    "id": 76,
+                    "name": "ElementaryTypeName",
+                    "src": "579:7:1"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "UserInfo",
+                      "referencedDeclaration": 63,
+                      "type": "struct PePointContract.UserInfo storage pointer"
+                    },
+                    "id": 77,
+                    "name": "UserDefinedTypeName",
+                    "src": "590:8:1"
+                  }
+                ],
+                "id": 78,
+                "name": "Mapping",
+                "src": "571:28:1"
+              }
+            ],
+            "id": 79,
+            "name": "VariableDeclaration",
+            "src": "571:53:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "mRetailerManagerPoint",
+              "scope": 210,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "address",
+                      "type": "address"
+                    },
+                    "id": 80,
+                    "name": "ElementaryTypeName",
+                    "src": "639:7:1"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "CustomerPointInfo",
+                      "referencedDeclaration": 75,
+                      "type": "struct PePointContract.CustomerPointInfo storage pointer"
+                    },
+                    "id": 81,
+                    "name": "UserDefinedTypeName",
+                    "src": "650:17:1"
+                  }
+                ],
+                "id": 82,
+                "name": "Mapping",
+                "src": "631:37:1"
+              }
+            ],
+            "id": 83,
+            "name": "VariableDeclaration",
+            "src": "631:59:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "createUser",
+              "payable": false,
+              "scope": 210,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_pubKey",
+                      "scope": 101,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 84,
+                        "name": "ElementaryTypeName",
+                        "src": "778:7:1"
+                      }
+                    ],
+                    "id": 85,
+                    "name": "VariableDeclaration",
+                    "src": "778:15:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_isCustomer",
+                      "scope": 101,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 86,
+                        "name": "ElementaryTypeName",
+                        "src": "795:4:1"
+                      }
+                    ],
+                    "id": 87,
+                    "name": "VariableDeclaration",
+                    "src": "795:16:1"
+                  }
+                ],
+                "id": 88,
+                "name": "ParameterList",
+                "src": "777:35:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 89,
+                "name": "ParameterList",
+                "src": "813:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "struct PePointContract.UserInfo storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "type": "struct PePointContract.UserInfo storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 79,
+                                  "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
+                                  "value": "mUserInfoManager"
+                                },
+                                "id": 90,
+                                "name": "Identifier",
+                                "src": "859:16:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "member_name": "sender",
+                                  "referencedDeclaration": null,
+                                  "type": "address"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 222,
+                                      "type": "msg",
+                                      "value": "msg"
+                                    },
+                                    "id": 91,
+                                    "name": "Identifier",
+                                    "src": "876:3:1"
+                                  }
+                                ],
+                                "id": 92,
+                                "name": "MemberAccess",
+                                "src": "876:10:1"
+                              }
+                            ],
+                            "id": 93,
+                            "name": "IndexAccess",
+                            "src": "859:28:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "isStructConstructorCall": true,
+                              "lValueRequested": false,
+                              "names": [
+                                null
+                              ],
+                              "type": "struct PePointContract.UserInfo memory",
+                              "type_conversion": false
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_bytes32",
+                                      "typeString": "bytes32"
+                                    },
+                                    {
+                                      "typeIdentifier": "t_bool",
+                                      "typeString": "bool"
+                                    }
+                                  ],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 63,
+                                  "type": "type(struct PePointContract.UserInfo storage pointer)",
+                                  "value": "UserInfo"
+                                },
+                                "id": 94,
+                                "name": "Identifier",
+                                "src": "890:8:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 85,
+                                  "type": "bytes32",
+                                  "value": "_pubKey"
+                                },
+                                "id": 95,
+                                "name": "Identifier",
+                                "src": "899:7:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 87,
+                                  "type": "bool",
+                                  "value": "_isCustomer"
+                                },
+                                "id": 96,
+                                "name": "Identifier",
+                                "src": "908:11:1"
+                              }
+                            ],
+                            "id": 97,
+                            "name": "FunctionCall",
+                            "src": "890:30:1"
+                          }
+                        ],
+                        "id": 98,
+                        "name": "Assignment",
+                        "src": "859:61:1"
+                      }
+                    ],
+                    "id": 99,
+                    "name": "ExpressionStatement",
+                    "src": "859:61:1"
+                  }
+                ],
+                "id": 100,
+                "name": "Block",
+                "src": "813:114:1"
+              }
+            ],
+            "id": 101,
+            "name": "FunctionDefinition",
+            "src": "757:170:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "getPublicKeyUser",
+              "payable": false,
+              "scope": 210,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_addressUser",
+                      "scope": 114,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 102,
+                        "name": "ElementaryTypeName",
+                        "src": "1014:7:1"
+                      }
+                    ],
+                    "id": 103,
+                    "name": "VariableDeclaration",
+                    "src": "1014:20:1"
+                  }
+                ],
+                "id": 104,
+                "name": "ParameterList",
+                "src": "1013:22:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 114,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 105,
+                        "name": "ElementaryTypeName",
+                        "src": "1045:7:1"
+                      }
+                    ],
+                    "id": 106,
+                    "name": "VariableDeclaration",
+                    "src": "1045:7:1"
+                  }
+                ],
+                "id": 107,
+                "name": "ParameterList",
+                "src": "1044:9:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 107
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "pubKey",
+                          "referencedDeclaration": 60,
+                          "type": "bytes32"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "struct PePointContract.UserInfo storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 79,
+                                  "type": "mapping(address => struct PePointContract.UserInfo storage ref)",
+                                  "value": "mUserInfoManager"
+                                },
+                                "id": 108,
+                                "name": "Identifier",
+                                "src": "1071:16:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 103,
+                                  "type": "address",
+                                  "value": "_addressUser"
+                                },
+                                "id": 109,
+                                "name": "Identifier",
+                                "src": "1088:12:1"
+                              }
+                            ],
+                            "id": 110,
+                            "name": "IndexAccess",
+                            "src": "1071:30:1"
+                          }
+                        ],
+                        "id": 111,
+                        "name": "MemberAccess",
+                        "src": "1071:37:1"
+                      }
+                    ],
+                    "id": 112,
+                    "name": "Return",
+                    "src": "1064:44:1"
+                  }
+                ],
+                "id": 113,
+                "name": "Block",
+                "src": "1054:61:1"
+              }
+            ],
+            "id": 114,
+            "name": "FunctionDefinition",
+            "src": "987:128:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "updateScoreToCustomer",
+              "payable": false,
+              "scope": 210,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_addressCustomer",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 115,
+                        "name": "ElementaryTypeName",
+                        "src": "1195:7:1"
+                      }
+                    ],
+                    "id": 116,
+                    "name": "VariableDeclaration",
+                    "src": "1195:24:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_totalScoreEncryptCusPubKey",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 117,
+                        "name": "ElementaryTypeName",
+                        "src": "1221:7:1"
+                      }
+                    ],
+                    "id": 118,
+                    "name": "VariableDeclaration",
+                    "src": "1221:35:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_totalScoreEncryptRetPubKey",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 119,
+                        "name": "ElementaryTypeName",
+                        "src": "1295:7:1"
+                      }
+                    ],
+                    "id": 120,
+                    "name": "VariableDeclaration",
+                    "src": "1295:35:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_scoreChangeEncCusPubkey",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 121,
+                        "name": "ElementaryTypeName",
+                        "src": "1332:7:1"
+                      }
+                    ],
+                    "id": 122,
+                    "name": "VariableDeclaration",
+                    "src": "1332:32:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_scoreChangeEncRetPubkey",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 123,
+                        "name": "ElementaryTypeName",
+                        "src": "1402:7:1"
+                      }
+                    ],
+                    "id": 124,
+                    "name": "VariableDeclaration",
+                    "src": "1402:32:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_hashPoint",
+                      "scope": 164,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 125,
+                        "name": "ElementaryTypeName",
+                        "src": "1436:7:1"
+                      }
+                    ],
+                    "id": 126,
+                    "name": "VariableDeclaration",
+                    "src": "1436:18:1"
+                  }
+                ],
+                "id": 127,
+                "name": "ParameterList",
+                "src": "1194:261:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 128,
+                "name": "ParameterList",
+                "src": "1456:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        130
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "customerPointData",
+                          "scope": 164,
+                          "stateVariable": false,
+                          "storageLocation": "storage",
+                          "type": "struct PePointContract.CustomerPointInfo storage pointer",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "CustomerPointInfo",
+                              "referencedDeclaration": 75,
+                              "type": "struct PePointContract.CustomerPointInfo storage pointer"
+                            },
+                            "id": 129,
+                            "name": "UserDefinedTypeName",
+                            "src": "1466:17:1"
+                          }
+                        ],
+                        "id": 130,
+                        "name": "VariableDeclaration",
+                        "src": "1466:43:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct PePointContract.CustomerPointInfo storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 83,
+                              "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
+                              "value": "mRetailerManagerPoint"
+                            },
+                            "id": 131,
+                            "name": "Identifier",
+                            "src": "1512:21:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "sender",
+                              "referencedDeclaration": null,
+                              "type": "address"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 222,
+                                  "type": "msg",
+                                  "value": "msg"
+                                },
+                                "id": 132,
+                                "name": "Identifier",
+                                "src": "1534:3:1"
+                              }
+                            ],
+                            "id": 133,
+                            "name": "MemberAccess",
+                            "src": "1534:10:1"
+                          }
+                        ],
+                        "id": 134,
+                        "name": "IndexAccess",
+                        "src": "1512:33:1"
+                      }
+                    ],
+                    "id": 135,
+                    "name": "VariableDeclarationStatement",
+                    "src": "1466:79:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bytes32"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "pointCustomer",
+                              "referencedDeclaration": 65,
+                              "type": "bytes32"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct PePointContract.PointInfo storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "mPointCustomer",
+                                      "referencedDeclaration": 74,
+                                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 130,
+                                          "type": "struct PePointContract.CustomerPointInfo storage pointer",
+                                          "value": "customerPointData"
+                                        },
+                                        "id": 136,
+                                        "name": "Identifier",
+                                        "src": "1555:17:1"
+                                      }
+                                    ],
+                                    "id": 139,
+                                    "name": "MemberAccess",
+                                    "src": "1555:32:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 116,
+                                      "type": "address",
+                                      "value": "_addressCustomer"
+                                    },
+                                    "id": 138,
+                                    "name": "Identifier",
+                                    "src": "1588:16:1"
+                                  }
+                                ],
+                                "id": 140,
+                                "name": "IndexAccess",
+                                "src": "1555:50:1"
+                              }
+                            ],
+                            "id": 141,
+                            "name": "MemberAccess",
+                            "src": "1555:64:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 118,
+                              "type": "bytes32",
+                              "value": "_totalScoreEncryptCusPubKey"
+                            },
+                            "id": 142,
+                            "name": "Identifier",
+                            "src": "1622:27:1"
+                          }
+                        ],
+                        "id": 143,
+                        "name": "Assignment",
+                        "src": "1555:94:1"
+                      }
+                    ],
+                    "id": 144,
+                    "name": "ExpressionStatement",
+                    "src": "1555:94:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bytes32"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "pointRetailer",
+                              "referencedDeclaration": 67,
+                              "type": "bytes32"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct PePointContract.PointInfo storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "mPointCustomer",
+                                      "referencedDeclaration": 74,
+                                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 130,
+                                          "type": "struct PePointContract.CustomerPointInfo storage pointer",
+                                          "value": "customerPointData"
+                                        },
+                                        "id": 145,
+                                        "name": "Identifier",
+                                        "src": "1659:17:1"
+                                      }
+                                    ],
+                                    "id": 148,
+                                    "name": "MemberAccess",
+                                    "src": "1659:32:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 116,
+                                      "type": "address",
+                                      "value": "_addressCustomer"
+                                    },
+                                    "id": 147,
+                                    "name": "Identifier",
+                                    "src": "1692:16:1"
+                                  }
+                                ],
+                                "id": 149,
+                                "name": "IndexAccess",
+                                "src": "1659:50:1"
+                              }
+                            ],
+                            "id": 150,
+                            "name": "MemberAccess",
+                            "src": "1659:64:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 120,
+                              "type": "bytes32",
+                              "value": "_totalScoreEncryptRetPubKey"
+                            },
+                            "id": 151,
+                            "name": "Identifier",
+                            "src": "1726:27:1"
+                          }
+                        ],
+                        "id": 152,
+                        "name": "Assignment",
+                        "src": "1659:94:1"
+                      }
+                    ],
+                    "id": 153,
+                    "name": "ExpressionStatement",
+                    "src": "1659:94:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bytes32"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "pointHashRetailer",
+                              "referencedDeclaration": 69,
+                              "type": "bytes32"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct PePointContract.PointInfo storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "mPointCustomer",
+                                      "referencedDeclaration": 74,
+                                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 130,
+                                          "type": "struct PePointContract.CustomerPointInfo storage pointer",
+                                          "value": "customerPointData"
+                                        },
+                                        "id": 154,
+                                        "name": "Identifier",
+                                        "src": "1763:17:1"
+                                      }
+                                    ],
+                                    "id": 157,
+                                    "name": "MemberAccess",
+                                    "src": "1763:32:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 116,
+                                      "type": "address",
+                                      "value": "_addressCustomer"
+                                    },
+                                    "id": 156,
+                                    "name": "Identifier",
+                                    "src": "1796:16:1"
+                                  }
+                                ],
+                                "id": 158,
+                                "name": "IndexAccess",
+                                "src": "1763:50:1"
+                              }
+                            ],
+                            "id": 159,
+                            "name": "MemberAccess",
+                            "src": "1763:68:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 126,
+                              "type": "bytes32",
+                              "value": "_hashPoint"
+                            },
+                            "id": 160,
+                            "name": "Identifier",
+                            "src": "1834:10:1"
+                          }
+                        ],
+                        "id": 161,
+                        "name": "Assignment",
+                        "src": "1763:81:1"
+                      }
+                    ],
+                    "id": 162,
+                    "name": "ExpressionStatement",
+                    "src": "1763:81:1"
+                  }
+                ],
+                "id": 163,
+                "name": "Block",
+                "src": "1456:395:1"
+              }
+            ],
+            "id": 164,
+            "name": "FunctionDefinition",
+            "src": "1163:688:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "getScoreCustomerFromRetailer",
+              "payable": false,
+              "scope": 210,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_addressCustomer",
+                      "scope": 181,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 165,
+                        "name": "ElementaryTypeName",
+                        "src": "1941:7:1"
+                      }
+                    ],
+                    "id": 166,
+                    "name": "VariableDeclaration",
+                    "src": "1941:24:1"
+                  }
+                ],
+                "id": 167,
+                "name": "ParameterList",
+                "src": "1940:26:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 181,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 168,
+                        "name": "ElementaryTypeName",
+                        "src": "1976:7:1"
+                      }
+                    ],
+                    "id": 169,
+                    "name": "VariableDeclaration",
+                    "src": "1976:7:1"
+                  }
+                ],
+                "id": 170,
+                "name": "ParameterList",
+                "src": "1975:9:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 170
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "pointRetailer",
+                          "referencedDeclaration": 67,
+                          "type": "bytes32"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "struct PePointContract.PointInfo storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "member_name": "mPointCustomer",
+                                  "referencedDeclaration": 74,
+                                  "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "type": "struct PePointContract.CustomerPointInfo storage ref"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 83,
+                                          "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
+                                          "value": "mRetailerManagerPoint"
+                                        },
+                                        "id": 171,
+                                        "name": "Identifier",
+                                        "src": "2002:21:1"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "member_name": "sender",
+                                          "referencedDeclaration": null,
+                                          "type": "address"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 222,
+                                              "type": "msg",
+                                              "value": "msg"
+                                            },
+                                            "id": 172,
+                                            "name": "Identifier",
+                                            "src": "2024:3:1"
+                                          }
+                                        ],
+                                        "id": 173,
+                                        "name": "MemberAccess",
+                                        "src": "2024:10:1"
+                                      }
+                                    ],
+                                    "id": 174,
+                                    "name": "IndexAccess",
+                                    "src": "2002:33:1"
+                                  }
+                                ],
+                                "id": 175,
+                                "name": "MemberAccess",
+                                "src": "2002:48:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 166,
+                                  "type": "address",
+                                  "value": "_addressCustomer"
+                                },
+                                "id": 176,
+                                "name": "Identifier",
+                                "src": "2051:16:1"
+                              }
+                            ],
+                            "id": 177,
+                            "name": "IndexAccess",
+                            "src": "2002:66:1"
+                          }
+                        ],
+                        "id": 178,
+                        "name": "MemberAccess",
+                        "src": "2002:80:1"
+                      }
+                    ],
+                    "id": 179,
+                    "name": "Return",
+                    "src": "1995:87:1"
+                  }
+                ],
+                "id": 180,
+                "name": "Block",
+                "src": "1985:104:1"
+              }
+            ],
+            "id": 181,
+            "name": "FunctionDefinition",
+            "src": "1902:187:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "getScoreCustomerFromCustomer",
+              "payable": false,
+              "scope": 210,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_addressRetailer",
+                      "scope": 209,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 182,
+                        "name": "ElementaryTypeName",
+                        "src": "2167:7:1"
+                      }
+                    ],
+                    "id": 183,
+                    "name": "VariableDeclaration",
+                    "src": "2167:24:1"
+                  }
+                ],
+                "id": 184,
+                "name": "ParameterList",
+                "src": "2166:26:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 209,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 185,
+                        "name": "ElementaryTypeName",
+                        "src": "2202:7:1"
+                      }
+                    ],
+                    "id": 186,
+                    "name": "VariableDeclaration",
+                    "src": "2202:7:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 209,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 187,
+                        "name": "ElementaryTypeName",
+                        "src": "2211:7:1"
+                      }
+                    ],
+                    "id": 188,
+                    "name": "VariableDeclaration",
+                    "src": "2211:7:1"
+                  }
+                ],
+                "id": 189,
+                "name": "ParameterList",
+                "src": "2201:18:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 189
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isInlineArray": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "tuple(bytes32,bytes32)"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "pointCustomer",
+                              "referencedDeclaration": 65,
+                              "type": "bytes32"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct PePointContract.PointInfo storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "mPointCustomer",
+                                      "referencedDeclaration": 74,
+                                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "type": "struct PePointContract.CustomerPointInfo storage ref"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 83,
+                                              "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
+                                              "value": "mRetailerManagerPoint"
+                                            },
+                                            "id": 190,
+                                            "name": "Identifier",
+                                            "src": "2238:21:1"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 183,
+                                              "type": "address",
+                                              "value": "_addressRetailer"
+                                            },
+                                            "id": 191,
+                                            "name": "Identifier",
+                                            "src": "2260:16:1"
+                                          }
+                                        ],
+                                        "id": 192,
+                                        "name": "IndexAccess",
+                                        "src": "2238:39:1"
+                                      }
+                                    ],
+                                    "id": 193,
+                                    "name": "MemberAccess",
+                                    "src": "2238:54:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "sender",
+                                      "referencedDeclaration": null,
+                                      "type": "address"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 222,
+                                          "type": "msg",
+                                          "value": "msg"
+                                        },
+                                        "id": 194,
+                                        "name": "Identifier",
+                                        "src": "2293:3:1"
+                                      }
+                                    ],
+                                    "id": 195,
+                                    "name": "MemberAccess",
+                                    "src": "2293:10:1"
+                                  }
+                                ],
+                                "id": 196,
+                                "name": "IndexAccess",
+                                "src": "2238:66:1"
+                              }
+                            ],
+                            "id": 197,
+                            "name": "MemberAccess",
+                            "src": "2238:80:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "pointHashRetailer",
+                              "referencedDeclaration": 69,
+                              "type": "bytes32"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct PePointContract.PointInfo storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "mPointCustomer",
+                                      "referencedDeclaration": 74,
+                                      "type": "mapping(address => struct PePointContract.PointInfo storage ref)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "type": "struct PePointContract.CustomerPointInfo storage ref"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 83,
+                                              "type": "mapping(address => struct PePointContract.CustomerPointInfo storage ref)",
+                                              "value": "mRetailerManagerPoint"
+                                            },
+                                            "id": 198,
+                                            "name": "Identifier",
+                                            "src": "2336:21:1"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 183,
+                                              "type": "address",
+                                              "value": "_addressRetailer"
+                                            },
+                                            "id": 199,
+                                            "name": "Identifier",
+                                            "src": "2358:16:1"
+                                          }
+                                        ],
+                                        "id": 200,
+                                        "name": "IndexAccess",
+                                        "src": "2336:39:1"
+                                      }
+                                    ],
+                                    "id": 201,
+                                    "name": "MemberAccess",
+                                    "src": "2336:54:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "sender",
+                                      "referencedDeclaration": null,
+                                      "type": "address"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 222,
+                                          "type": "msg",
+                                          "value": "msg"
+                                        },
+                                        "id": 202,
+                                        "name": "Identifier",
+                                        "src": "2391:3:1"
+                                      }
+                                    ],
+                                    "id": 203,
+                                    "name": "MemberAccess",
+                                    "src": "2391:10:1"
+                                  }
+                                ],
+                                "id": 204,
+                                "name": "IndexAccess",
+                                "src": "2336:66:1"
+                              }
+                            ],
+                            "id": 205,
+                            "name": "MemberAccess",
+                            "src": "2336:84:1"
+                          }
+                        ],
+                        "id": 206,
+                        "name": "TupleExpression",
+                        "src": "2237:184:1"
+                      }
+                    ],
+                    "id": 207,
+                    "name": "Return",
+                    "src": "2230:191:1"
+                  }
+                ],
+                "id": 208,
+                "name": "Block",
+                "src": "2220:208:1"
+              }
+            ],
+            "id": 209,
+            "name": "FunctionDefinition",
+            "src": "2128:300:1"
+          }
+        ],
+        "id": 210,
+        "name": "ContractDefinition",
+        "src": "26:2405:1"
+      }
+    ],
+    "id": 211,
+    "name": "SourceUnit",
+    "src": "0:2431:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-25T06:49:53.036Z"
+}
