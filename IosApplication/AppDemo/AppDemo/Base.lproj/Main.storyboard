@@ -77,6 +77,9 @@
                                         <state key="normal" title="RELOAD">
                                             <color key="titleColor" red="0.99814152318821125" green="1" blue="0.98178444557044231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="reload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5KS-pP-des"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Point: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3Y-FG-eQJ">
                                         <rect key="frame" x="21" y="28" width="62" height="25.5"/>
@@ -125,6 +128,8 @@
                     <navigationItem key="navigationItem" title="Wallet" id="yyn-qA-uGD"/>
                     <connections>
                         <outlet property="collectionView" destination="s8f-lT-6bq" id="MkU-Uo-TEl"/>
+                        <outlet property="pointLabel" destination="xYW-wq-hxi" id="zO1-0L-gwT"/>
+                        <segue destination="rfR-nD-Bsx" kind="show" identifier="profile_segue" id="toQ-V3-wy5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -138,13 +143,29 @@
                     <view key="view" contentMode="scaleToFill" id="gJg-iu-9Ut">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="E6C-tK-F99">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xJU-37-wtV" firstAttribute="trailing" secondItem="E6C-tK-F99" secondAttribute="trailing" id="Bwz-ac-pOl"/>
+                            <constraint firstItem="xJU-37-wtV" firstAttribute="bottom" secondItem="E6C-tK-F99" secondAttribute="bottom" id="QJi-Re-Ny4"/>
+                            <constraint firstItem="E6C-tK-F99" firstAttribute="top" secondItem="xJU-37-wtV" secondAttribute="top" id="XMj-On-dgO"/>
+                            <constraint firstItem="E6C-tK-F99" firstAttribute="leading" secondItem="xJU-37-wtV" secondAttribute="leading" id="rrJ-mi-44L"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xJU-37-wtV"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AAB-wX-4Fc">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="q7e-cZ-a15">
+                            <color key="tintColor" red="1" green="0.94770249798289241" blue="0.92233583731716673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slo-BC-Vu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="117"/>
+            <point key="canvasLocation" x="2321" y="117"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z2m-lr-Nh5">
@@ -168,5 +189,6 @@
     <resources>
         <image name="RedCard" width="269" height="203"/>
         <image name="Transactions" width="375" height="310"/>
+        <image name="profile" width="375" height="618"/>
     </resources>
 </document>

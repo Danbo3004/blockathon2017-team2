@@ -13,6 +13,7 @@
 		C86153E81FC958760097F59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86153E71FC958760097F59A /* Assets.xcassets */; };
 		C86153EB1FC958760097F59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86153E91FC958760097F59A /* LaunchScreen.storyboard */; };
 		C86153F31FC9649B0097F59A /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86153F21FC9649B0097F59A /* CardCell.swift */; };
+		C86153F51FC97E9F0097F59A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86153F41FC97E9F0097F59A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C86153EA1FC958760097F59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86153EC1FC958760097F59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C86153F21FC9649B0097F59A /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		C86153F41FC97E9F0097F59A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C86153E71FC958760097F59A /* Assets.xcassets */,
 				C86153E91FC958760097F59A /* LaunchScreen.storyboard */,
 				C86153EC1FC958760097F59A /* Info.plist */,
+				C86153F41FC97E9F0097F59A /* ProfileViewController.swift */,
 			);
 			path = AppDemo;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				C86153E31FC958760097F59A /* ViewController.swift in Sources */,
 				C86153E11FC958760097F59A /* AppDelegate.swift in Sources */,
+				C86153F51FC97E9F0097F59A /* ProfileViewController.swift in Sources */,
 				C86153F31FC9649B0097F59A /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

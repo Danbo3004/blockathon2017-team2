@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var pointLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+    var selectedItem: Int = 0
+    
+    var data = [0: 168, 1: 34, 2: 100]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,10 +42,14 @@ class ViewController: UIViewController {
         button.backgroundColor = UIColor.green
         let barButton = UIBarButtonItem(customView: button)
         self.navigationItem.leftBarButtonItem = barButton
-        
     }
     
     @objc func openUserProfile() {
+        performSegue(withIdentifier: "profile_segue", sender: self)
+    }
+    
+    
+    @IBAction func reload(_ sender: UIButton) {
         
     }
 }
@@ -71,6 +79,29 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         }
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        selectedItem = indexPath.row
+        
+        switch indexPath.row {
+        case 0:
+            
+            break
+        case 1:
+            
+            break
+        default:
+            
+            break
+        }
+        
+        showPoint()
+    }
+    
+    func showPoint() {
+        pointLabel.text = "\(String(describing: data[selectedItem]!))"
     }
     
 }
