@@ -159,18 +159,23 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func fetchData(address: String) {
-        let urlString = "http://headers.jsontest.com/getScoreCustomerFromCustomer/\(myAddress)/\(address)"
+        let urlString = "http://192.168.22.4:3000/getScoreCustomerFromCustomer/\(myAddress)/\(address)"
         
         let request = URLRequest(url: NSURL(string: urlString)! as URL)
         do {
             let response: AutoreleasingUnsafeMutablePointer<URLResponse?>? = nil
             var dataResponse = try NSURLConnection.sendSynchronousRequest(request, returning: response)
-            print(dataResponse)
-            let point = Int(decryptData(cypherText: String(data: dataResponse, encoding: String.Encoding.utf8)!))
+            let jsonSerialized = try JSONSerialization.jsonObject(with: dataResponse, options: []) as? [String : String]
+            if let json = jsonSerialized {
+                print(json)
+                let point = Int(decryptData(cypherText: json["0"]!)) ?? 0
+                
+                data[addresses[address]!] = point
+                print("show point")
+                showPoint()
+
+            }
             
-            data[addresses[address]!] = point
-            print("show point")
-            showPoint()
             
         } catch let error as NSError {
             print(error.localizedDescription)
